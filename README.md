@@ -10,3 +10,4 @@
 
 * Image Circle Cropping https://bigimage.11zon.com/en/crop-circle-image/
 * Resize and reformat https://squoosh.app/
+* Favicons Generator https://realfavicongenerator.net
