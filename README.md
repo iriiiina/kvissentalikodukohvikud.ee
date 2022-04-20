@@ -4,6 +4,7 @@
 
 * Grass Green #405d27
 * Gray Text #3e4444
+* Orange Links #e58e26
 
 ## Images
 
