@@ -112,6 +112,7 @@ header {
 
 header img {
     width: 90%;
+    height: auto;
     margin: 20px 0 0 0;
 }
 
@@ -176,11 +177,6 @@ header img {
 
 #map {
     text-align: center;
-}
-
-#map iframe {
-    width: 100%;
-    height: 50%;
 }
 
 #map img {
