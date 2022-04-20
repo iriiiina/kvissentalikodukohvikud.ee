@@ -35,26 +35,61 @@
 </head>
 
 <body>
+
+    <script>
+        function toggleMenu() {
+          var menu = document.getElementById("menu");
+          var menuButton = document.getElementById("menu-button");
+          if (menu.style.display === "none") {
+            menu.style.display = "flex";
+            menuButton.style.fill = "white";
+          } else {
+            menu.style.display = "none";
+            menuButton.style.fill = "#636e72";
+          }
+        }
+    
+        function closeMenu() {
+          document.getElementById("menu").style.display = "none";
+          document.getElementById("menu-button").style.fill = "#636e72";
+        }
+    
+    </script>
     
   <nav>
-    <a href="#">Avaleht</a> &#10045;
-    <a href="#cafes">Programm</a> &#10045;
-    <a href="#map">Kaart</a> &#10045;
-    <a href="#owner">Peremehele</a> &#10045;
-    <a href="#guest">Külastajale</a> &#10045;
-    <a href="#contacts">Kontaktid</a>
+
+    <svg id="menu-button" onClick="toggleMenu()" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <title>Menu</title>
+        <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path>
+    </svg>
+
+    <div id="menu-768">
+        <p><a href="#">Avaleht</a></p>
+        <p class="menu-divider">&#10045;</p>
+        <p><a href="#a-cafes">Programm</a></p>
+        <p class="menu-divider">&#10045;</p>
+        <p><a href="#a-map">Kaart</a></p>
+        <p class="menu-divider">&#10045;</p>
+        <p><a href="#a-owner">Peremehele</a></p>
+        <p class="menu-divider">&#10045;</p>
+        <p><a href="#a-guest">Külastajale</a></p>
+        <p class="menu-divider">&#10045;</p>
+        <p><a href="#a-contacts">Kontaktid</a></p>
+    </div>
+
+    <div id="menu">
+        <p><a onClick="closeMenu()" href="#">Avaleht</a></p>
+        <p><a onClick="closeMenu()" href="#a-cafes">Programm</a></p>
+        <p><a onClick="closeMenu()" href="#a-map">Kaart</a></p>
+        <p><a onClick="closeMenu()" href="#a-owner">Peremehele</a></p>
+        <p><a onClick="closeMenu()" href="#a-guest">Külastajale</a></p>
+        <p><a onClick="closeMenu()" href="#a-contacts">Kontaktid</a></p>
+    </div>
+
   </nav>
 
   <header>
-      <img src="img/tree-1.png"/>
-      <img src="img/tree-8.png"/>
-      <img src="img/tree-2.png"/>
-      <img src="img/tree-7.png"/>
-      <img src="img/tree-3.png"/>
-      <img src="img/tree-4.png"/>
-      <img src="img/tree-6.png"/>
-      <img src="img/tree-9.png"/>
-      <img src="img/tree-5.png"/>
+      <img src="img/trees-grey.png" loading="lazy" alt="Joonistatud elupuud"/>
       <h1>Kvissentali kodukohvikute päev 22.05.2022</h1>
   </header>
 
@@ -62,7 +97,7 @@
 
     <section id="description">
       <p>Kutsume kõiki Kvissentali elanikke osalema esmakordselt toimuval maitseterohkel Kvissentali kodukohvikute päeval!</p>
-      <p>Oma osalusest palun anna teada Facebook sündmusel: <a href="https://www.facebook.com/events/501536681690385/">Kvissentali kodukohvikute päev</a></p>
+      <p>Oma osalusest palun anna teada Facebook sündmusel: <a href="https://www.facebook.com/events/501536681690385/" title="Kvissentali kodukohvikute päev sündmus">Kvissentali kodukohvikute päev</a></p>
     </section>
 
     <section id="share">
@@ -70,7 +105,7 @@
         <p>#kvissentalikodukohvikud</p>
     </section>
 
-    <h2>Programm</h2>
+    <h2 id="a-cafes">Programm</h2>
     <section id="cafes">
 
         <div class="cafe">
@@ -105,33 +140,21 @@
 
     </section>
 
-    <h2>Kaart</h2>
+    <h2 id="a-map">Kaart</h2>
     <section id="map">
         
-        <img src="img/map.png"/>
-
-        <!--
-        <iframe
-            width="100vw"
-            height="50vh"
-            style="border:0"
-            loading="lazy"
-            allowfullscreen
-            referrerpolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps/d/u/0/embed?mid=1m59IPcxgoEu6lGYb8Xx0cRKQtZ9160ud&ehbc=2E312F">
-        </iframe>
-        -->
+        <img src="img/map.png" loading="lazy" alt="Kodukohvikute kaart"/>
 
     </section>
 
-    <h2>Peremehele</h2>
+    <h2 id="a-owner">Peremehele</h2>
     <section id="owner">
         <p>- Valmista ette mingid istumiskohad oma külastajatele (kas või pikniku pleed muru peal)</p>
         <p>- Kuna külastajad tõenäoliselt maksavad sularahaga, siis valmista ette mingit tagatisraha münte</p>
         <p>- Valmista ette suur prügikast, et prügi ei jääks su muru peal</p>
     </section>
 
-    <h2>Külastajale</h2>
+    <h2 id="a-guest">Külastajale</h2>
     <section id="guest">
         <p>- Austame ja hoolime peremehe kodu!</p>
         <p>- Ära jäta enda prügi</p>
@@ -139,29 +162,29 @@
         <p>- Koduloomad võiks jääda kodus: arvesta sellega, et kohapeal võivad olla peremehe koduloomad ja väikesed lapsed. Kui ikka tuled oma koduloomaga, siis jälgi, et ta ei kahjustaks peremehe taime ja muru ja ei häiriks külastajaid.</p>
     </section>
 
-    <h2>Kontaktid</h2>
+    <h2 id="a-contacts">Kontaktid</h2>
     <section id="contacts">
 
         <div class="contact">
-            <img src="img/anna.png"/>
+            <img src="img/anna.png" width="200" height="200" loading="lazy" alt="Anna Aljanaki pilt"/>
             <h3>Anna Aljanaki</h3>
-            <p><a href="https://www.facebook.com/anna.aljanaki.14">Facebook Messages</a></p>
-            <p><a href="mailto:aljanaki@gmail.com">aljanaki@gmail.com</a></p>
+            <p><a href="https://www.facebook.com/anna.aljanaki.14" title="Facebook konto: Anna Aljanaki">Facebook Messages</a></p>
+            <p><a href="mailto:aljanaki@gmail.com" title="Email: aljanaki@gmail.com">aljanaki@gmail.com</a></p>
         </div>
 
         <div class="contact">
-            <img src="img/irina.png"/>
+            <img src="img/irina.png" loading="lazy" alt="Irina Ivanova pilt"/>
             <h3>Irina Ivanova</h3>
-            <p><a href="https://www.facebook.com/iiiirina.ivanova/">Facebook Messages</a></p>
-            <p><a href="mailto:irina.ivanova@protonmail.com">irina.ivanova@protonmail.com</a></p>
+            <p><a href="https://www.facebook.com/iiiirina.ivanova/" title="Facebook konto: Irina Ivanova">Facebook Messages</a></p>
+            <p><a href="mailto:irina.ivanova@protonmail.com" title="Email: irina.ivanova@protonmail.com">irina.ivanova@protonmail.com</a></p>
         </div>
 
         <div class="contact">
-            <img src="img/nikita.png"/>
+            <img src="img/nikita.png" loading="lazy" alt="Nikita Ivanov pilt"/>
             <h3>Nikita Ivanov</h3>
             <p><a href="tel:+37258344208">+372 5834 4208</a></p>
-            <p><a href="https://www.facebook.com/gregorianisch">Facebook Messages</a></p>
-            <p><a href="mailto:gregorianisch@gmail.com">gregorianisch@gmail.com</a></p>
+            <p><a href="https://www.facebook.com/gregorianisch" title="Facebook konto: Nikita Ivanov">Facebook Messages</a></p>
+            <p><a href="mailto:gregorianisch@gmail.com" title="Email: gregorianisch@gmail.com">gregorianisch@gmail.com</a></p>
         </div>
 
     </section>
