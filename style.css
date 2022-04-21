@@ -169,8 +169,22 @@ header img {
     padding: 5px;
 }
 
+.cafe-info svg {
+    fill: #405d27;
+    height: 20px;
+}
+
 .cafe-description {
     padding: 5px;
+}
+
+.cafe-icons {
+    text-align: center;
+}
+
+.cafe-icons svg {
+    height: 30px;
+    margin: 10px 10px 0 10px;
 }
 
 /* MAP */
