@@ -19,7 +19,7 @@ body {
 h1 {
     text-align: center;
     color: #405d27;
-    padding: 20px 0 20px 0;
+    padding: 20px 10px 20px 10px;
 }
 
 h2 {
@@ -121,6 +121,7 @@ header img {
     text-align: center;
     font-size: 1.3em;
     line-height: 1.5em;
+    padding: 0 10px 0 10px;
 }
 
 #description p {
@@ -204,6 +205,7 @@ header img {
     margin: auto;
     width: 700px;
     max-width: 90%;
+    padding: 0 10px 0 10px;
 }
 
 /* GUEST */
@@ -212,6 +214,7 @@ header img {
     margin: auto;
     width: 700px;
     max-width: 90%;
+    padding: 0 10px 0 10px;
 }
 
 /* CONTACTS */
