@@ -141,6 +141,14 @@ header img {
     color: white;
 }
 
+#share a {
+    color: white;
+}
+
+#share a:hover {
+    color: #e58e26;
+}
+
 /* PROGRAM */
 
 #cafes-section {
@@ -248,4 +256,12 @@ footer {
     text-align: center;
     line-height: 0.5em;
     padding: 20px 0 20px 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #e58e26;
 }
