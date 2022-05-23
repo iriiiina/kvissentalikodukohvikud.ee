@@ -15,3 +15,4 @@ https://kvissentalikodukohvikud.ee
 * Resize and reformat https://squoosh.app/
 * Favicons Generator https://realfavicongenerator.net
 * Icons https://fontawesome.com
+* Grid Gallery https://github.com/jestov/grid-gallery
