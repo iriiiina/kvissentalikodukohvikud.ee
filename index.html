@@ -9,7 +9,8 @@
 
   <!-- SEO -->
   <link rel="manifest" href="manifest.json">
-  
+  <link rel="canonical" href="https://kvissentalikodukohvikud.ee">
+
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -17,19 +18,20 @@
   <meta name="msapplication-TileColor" content="#405d27">
   <meta name="theme-color" content="#405d27">
 
-  <meta name="description" content="Kvissentali kodukohvikute päeva kirjeldus, programm, kaart ja muu oluline info"/>
-  <meta property="og:url" content="https://kvissentalikodukohvikud.ee"/>
-  <meta property="og:type" content="website"/> 
-  <meta property="og:title" content="Kvissentali kodukohvikute päev"/>
-  <meta property="og:site_name" content="Kvissentali kodukohvikute päev"/>
-  <meta property="og:description" content="Kvissentali kodukohvikute päeva kirjeldus, programm, kaart ja muu oluline info"/>
-  <meta property="og:image" content="favicon/preview.png"/>
-  <meta property="og:image:url" content="https://kvissentalikodukohvikud.ee/favicon/preview.png"/>
-  <meta property="og:image:secure_url" content="https://kvissentalikodukohvikud.ee/favicon/preview.png"/>
-  <meta property="og:image:type" content="image/png"/>
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
-  <meta property="og:locale" content="et-EE"/>
+  <meta name="description" content="Kvissentali kodukohvikute päeva kirjeldus, programm, kaart ja muu oluline info" />
+  <meta property="og:url" content="https://kvissentalikodukohvikud.ee" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kvissentali kodukohvikute päev" />
+  <meta property="og:site_name" content="Kvissentali kodukohvikute päev" />
+  <meta property="og:description"
+    content="Kvissentali kodukohvikute päeva kirjeldus, programm, kaart ja muu oluline info" />
+  <meta property="og:image" content="favicon/preview.png" />
+  <meta property="og:image:url" content="https://kvissentalikodukohvikud.ee/favicon/preview.png" />
+  <meta property="og:image:secure_url" content="https://kvissentalikodukohvikud.ee/favicon/preview.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="et-EE" />
 
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -37,141 +39,170 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@400;700&display=swap" rel="stylesheet"> 
-  
+  <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
-<body>
+<body itemscope itemtype="https://schema.org/WebPage">
 
-    <script>
-        function toggleMenu() {
-          var menu = document.getElementById("menu");
-          var menuButton = document.getElementById("menu-button");
-          if (menu.style.display === "none") {
-            menu.style.display = "flex";
-            menuButton.style.fill = "white";
-          } else {
-            menu.style.display = "none";
-            menuButton.style.fill = "#636e72";
-          }
-        }
-    
-        function closeMenu() {
-          document.getElementById("menu").style.display = "none";
-          document.getElementById("menu-button").style.fill = "#636e72";
-        }
-    
-    </script>
-    
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("menu");
+      var menuButton = document.getElementById("menu-button");
+      if (menu.style.display === "none") {
+        menu.style.display = "flex";
+        menuButton.style.fill = "white";
+      } else {
+        menu.style.display = "none";
+        menuButton.style.fill = "#636e72";
+      }
+    }
+
+    function closeMenu() {
+      document.getElementById("menu").style.display = "none";
+      document.getElementById("menu-button").style.fill = "#636e72";
+    }
+
+  </script>
+
   <nav>
 
-    <svg id="menu-button" onClick="toggleMenu()" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-        <title>Menu</title>
-        <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path>
+    <svg id="menu-button" onClick="toggleMenu()" aria-hidden="true" focusable="false" role="img"
+      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+      <title>Menu</title>
+      <path
+        d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+      </path>
     </svg>
 
     <div id="menu-768">
-        <p><a href="#">Avaleht</a></p>
-        <p class="menu-divider">&#10045;</p>
-        <p><a href="#archive">Arhiiv</a></p>
-        <p class="menu-divider">&#10045;</p>
-        <p><a href="#owner">Pererahvale</a></p>
-        <p class="menu-divider">&#10045;</p>
-        <p><a href="#guest">Külastajale</a></p>
-        <p class="menu-divider">&#10045;</p>
-        <p><a href="#contacts">Kontaktid</a></p>
+      <p><a href="#">Avaleht</a></p>
+      <p class="menu-divider">&#10045;</p>
+      <p><a href="#archive">Arhiiv</a></p>
+      <p class="menu-divider">&#10045;</p>
+      <p><a href="#owner">Pererahvale</a></p>
+      <p class="menu-divider">&#10045;</p>
+      <p><a href="#guest">Külastajale</a></p>
+      <p class="menu-divider">&#10045;</p>
+      <p><a href="#contacts">Kontaktid</a></p>
     </div>
 
     <div id="menu">
-        <p><a onClick="closeMenu()" href="#">Avaleht</a></p>
-        <p><a onclick="closeMenu()" href="#archive">Arhiiv</a></p>
-        <p><a onClick="closeMenu()" href="#owner">Pererahvale</a></p>
-        <p><a onClick="closeMenu()" href="#guest">Külastajale</a></p>
-        <p><a onClick="closeMenu()" href="#contacts">Kontaktid</a></p>
+      <p><a onClick="closeMenu()" href="#">Avaleht</a></p>
+      <p><a onclick="closeMenu()" href="#archive">Arhiiv</a></p>
+      <p><a onClick="closeMenu()" href="#owner">Pererahvale</a></p>
+      <p><a onClick="closeMenu()" href="#guest">Külastajale</a></p>
+      <p><a onClick="closeMenu()" href="#contacts">Kontaktid</a></p>
     </div>
 
   </nav>
 
   <header>
-      <img src="img/trees-color.png" width="1198" height="200" loading="lazy" alt="Joonistatud elupuud"/>
-      <h1>Kvissentali kodukohvikute päev</h1>
+    <img src="img/trees-color.png" width="1198" height="200" loading="lazy" alt="Joonistatud elupuud"
+      itemprop="primaryImageOfPage" />
+    <h1>III Kvissentali päevad<br />
+      15.&mdash;16. juunil 2024</h1>
   </header>
 
   <main>
 
-    <section id="description">
-      <p>3. juunil 2023 toimus teine Kvissentali kodukohvikute päev. Vaata <a href="#archive">Arhiivis</a> kuidas see välja nägi.</p>
-      <p>Loodame, et see tuleb ka järgmisel suvel. Täpne kuupäev selgub hiljem.</p>
+    <section id="description" itemprop="description">
+      <p>Sellel aastal me laiendame kodukohvikute päeva ja teeme Kvissentali päevad! Peale kodukohvikuid tuleb veel
+        hoovimüük, kontsert, väikesed matkad ja veel midagi kohaliku ja hubast.</p>
+      <p>Kui soovid registreerida oma üritus, siis palun täita vorm<br /><a href="https://forms.gle/LzXFqVEAt9gggigR9"
+          title="Ürituse registreerimise vorm">https://forms.gle/LzXFqVEAt9gggigR9</a></p>
+      <p>Vaata <a href="#archive">Arhiivis</a> kuidas see välja nägi eelmistel aastatel.</p>
     </section>
 
     <section id="share">
-        <p>Tehke pildid ja jagage neid Instagramis!</p>
-        <p><a href="https://www.instagram.com/explore/tags/kvissentalikodukohvikud/" title="Instagrami tag #kvissentalikodukohvikud">#kvissentalikodukohvikud</a></p>
-        <p><a href="https://www.instagram.com/explore/tags/kvikoko/" title="Instagrami tag #kvikoko">#kvikoko</a></p>
+      <p>Tehke pildid ja jagage neid Instagramis!</p>
+      <p><a href="https://www.instagram.com/explore/tags/kvissentalipäevad"
+          title="Instagrami tag #kvissentalipäevad">#kvissentalipäevad</a></p>
+      <p><a href="https://www.instagram.com/explore/tags/kvissentalikodukohvikud/"
+          title="Instagrami tag #kvissentalikodukohvikud">#kvissentalikodukohvikud</a></p>
+      <p><a href="https://www.instagram.com/explore/tags/kvikoko/" title="Instagrami tag #kvikoko">#kvikoko</a></p>
     </section>
 
     <h2 id="archive">Arhiiv</h2>
     <section id="arhiv-section">
 
-        <p>Vaata kuidas möödusid eelmised Kvissentali kodukohvikute päevad</p>
+      <p>Vaata kuidas möödusid eelmised Kvissentali kodukohvikute päevad</p>
 
-        <p><a href="2022/index.html">I Kvissentali kodukohvikute päev &#10023; 22.05.2022</a></p>
-        <p><a href="2023/index.html">II Kvissentali kodukohvikute päev &#10023; 03.06.2023</a></p>
+      <p><a href="2022/index.html">I Kvissentali kodukohvikute päev &#10023; 22.05.2022</a></p>
+      <p><a href="2023/index.html">II Kvissentali kodukohvikute päev &#10023; 03.06.2023</a></p>
 
     </section>
 
     <h2 id="owner">Pererahvale</h2>
     <section id="owner-section">
-        <p>&#10022; Valmista ette mingid istumiskohad oma külastajatele (kasvõi pikniku pleed muru peal)</p>
-        <p>&#10023; Kuna külastajad tõenäoliselt maksavad sularahaga, siis palun valmista ette tagastusraha</p>
-        <p>&#10022; Valmista ette suur prügikast, et prügi ei jääks su muru peale</p>
-        <p>&#10023; Palun märgi kohviku kirjelduses kas koduloomad on oodatud sinu kohvikus või mitte</p>
+      <p>&#10022; Valmista ette mingid istumiskohad oma külastajatele (kasvõi pikniku pleed muru peal)</p>
+      <p>&#10023; Kuna külastajad tõenäoliselt maksavad sularahaga, siis palun valmista ette tagastusraha</p>
+      <p>&#10022; Valmista ette suur prügikast, et prügi ei jääks su muru peale</p>
+      <p>&#10023; Palun märgi kohviku kirjelduses kas koduloomad on oodatud sinu kohvikus või mitte</p>
+      <p>&#10022; Ole keskkonnasäästlik - kasuta korduvkasutatavad nõud või tee soodustus, kui keegi tuleb oma tassiga
+      </p>
     </section>
 
     <h2 id="guest">Külastajale</h2>
     <section id="guest-section">
-        <p>&#10022; Suhtu pererahva kodusse hoolivalt</p>
-        <p>&#10023; Ära jäta enda prügi</p>
-        <p>&#10022; Võta kaasa väikese nominaaliga sularaha</p>
-        <p>&#10023; Ole keskkonnasäästlik - võta kodust kaasa oma tass</p>
-        <p>&#10022; Kohapeal võivad olla pererahva enda koduloomad ja väikesed lapsed. Palun jälgi kas kohviku kirjelduses on koera pilt või mitte. Kui koera pildi pole, siis palun jäta kodulooma väljaspool kohviku ala.</p>
+      <p>&#10022; Suhtu pererahva kodusse hoolivalt</p>
+      <p>&#10023; Ära jäta enda prügi</p>
+      <p>&#10022; Võta kaasa väikese nominaaliga sularaha</p>
+      <p>&#10023; Ole keskkonnasäästlik - võta kodust kaasa oma tass</p>
+      <p>&#10022; Kohapeal võivad olla pererahva enda koduloomad ja väikesed lapsed. Palun jälgi kas kohviku kirjelduses
+        on koera pilt või mitte. Kui koera pildi pole, siis palun jäta kodulooma väljaspool kohviku ala.</p>
     </section>
 
     <h2 id="contacts">Kontaktid</h2>
     <section id="contacts-section">
 
-        <div class="contact">
-            <img src="img/anna.png" width="200" height="200" loading="lazy" alt="Anna Aljanaki pilt"/>
-            <h3>Anna Aljanaki</h3>
-            <p><a href="https://www.facebook.com/anna.aljanaki.14" title="Facebook konto: Anna Aljanaki">Facebook Messages</a></p>
-            <p><a href="mailto:aljanaki@gmail.com" title="Email: aljanaki@gmail.com">aljanaki@gmail.com</a></p>
-        </div>
+      <div class="contact" itemscope itemtype="https://schema.org/Person">
+        <img src="img/anna.png" width="200" height="200" loading="lazy" alt="Anna Aljanaki pilt" itemprop="image" />
+        <h3 itemprop="name">Anna Aljanaki</h3>
+        <p itemprop="sameAs"><a href="https://www.facebook.com/anna.aljanaki.14"
+            title="Facebook konto: Anna Aljanaki">Facebook
+            Messages</a></p>
+        <p itemprop="email"><a href="mailto:aljanaki@gmail.com" title="Email: aljanaki@gmail.com">aljanaki@gmail.com</a>
+        </p>
+      </div>
 
-        <div class="contact">
-            <img src="img/irina.png" width="200" height="200" loading="lazy" alt="Irina Ivanova pilt"/>
-            <h3>Irina Ivanova</h3>
-            <p><a href="https://www.facebook.com/iiiirina.ivanova/" title="Facebook konto: Irina Ivanova">Facebook Messages</a></p>
-            <p><a href="mailto:irina.ivanova@protonmail.com" title="Email: irina.ivanova@protonmail.com">irina.ivanova@protonmail.com</a></p>
-        </div>
+      <div class="contact" itemscope itemtype="https://schema.org/Person">
+        <img src="img/irina.png" width="200" height="200" loading="lazy" alt="Irina Ivanova pilt" itemprop="image" />
+        <h3 itemprop="name">Irina Ivanova</h3>
+        <p itemprop="sameAs"><a href="https://www.facebook.com/iiiirina.ivanova/"
+            title="Facebook konto: Irina Ivanova">Facebook
+            Messages</a></p>
+        <p itemprop="email"><a href="mailto:irina.ivanova@protonmail.com"
+            title="Email: irina.ivanova@protonmail.com">irina.ivanova@protonmail.com</a></p>
+      </div>
 
-        <div class="contact">
-            <img src="img/nikita.png" width="200" height="200" loading="lazy" alt="Nikita Ivanov pilt"/>
-            <h3>Nikita Ivanov</h3>
-            <p><a href="https://www.facebook.com/gregorianisch" title="Facebook konto: Nikita Ivanov">Facebook Messages</a></p>
-            <p><a href="mailto:gregorianisch@gmail.com" title="Email: gregorianisch@gmail.com">gregorianisch@gmail.com</a></p>
-        </div>
+      <div class="contact" itemscope itemtype="https://schema.org/Person">
+        <img src="img/nikita.png" width="200" height="200" loading="lazy" alt="Nikita Ivanov pilt" itemprop="image" />
+        <h3 itemprop="name">Nikita Ivanov</h3>
+        <p itemprop="sameAs"><a href="https://www.facebook.com/gregorianisch"
+            title="Facebook konto: Nikita Ivanov">Facebook Messages</a>
+        </p>
+        <p itemprop="email"><a href="mailto:gregorianisch@gmail.com"
+            title="Email: gregorianisch@gmail.com">gregorianisch@gmail.com</a>
+        </p>
+      </div>
 
     </section>
 
   </main>
 
   <footer>
-      <p>2023</p>
-      <p><a href="https://www.instagram.com/explore/tags/kvissentalikodukohvikud/" title="Instagrami tag #kvissentalikodukohvikud">#kvissentalikodukohvikud</a></p>
-      <p><a href="https://www.instagram.com/explore/tags/kvikoko/" title="Instagrami tag #kvikoko">#kvikoko</a></p>
-      <p><br /></p>
-      <p>Made by <a href="https://vimo.ee/" title="Vimo OÜ">Vimo</a></p>
+    <p>2024</p>
+    <p><a href="https://www.instagram.com/explore/tags/kvissentalipäevad"
+        title="Instagrami tag #kvissentalipäevad">#kvissentalipäevad</a></p>
+    <p><a href="https://www.instagram.com/explore/tags/kvissentalikodukohvikud/"
+        title="Instagrami tag #kvissentalikodukohvikud">#kvissentalikodukohvikud</a></p>
+    <p><a href="https://www.instagram.com/explore/tags/kvikoko/" title="Instagrami tag #kvikoko">#kvikoko</a></p>
+    <p><br /></p>
+    <p itemscope itemtype="https://schema.org/OnlineBusiness">Made by <a href="https://vimo.ee/" title="Vimo OÜ"
+        itemprop="url"><span itemprop="name">Vimo</span></a></p>
   </footer>
 
 </body>
+
 </html>

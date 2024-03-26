@@ -9,10 +9,12 @@ https://kvissentalikodukohvikud.ee
 * Gray Text #3e4444
 * Orange Links #e58e26
 
-## Images
+## Resources
 
 * Image Circle Cropping https://bigimage.11zon.com/en/crop-circle-image/
 * Resize and reformat https://squoosh.app/
 * Favicons Generator https://realfavicongenerator.net
 * Icons https://fontawesome.com
 * Grid Gallery https://github.com/jestov/grid-gallery
+* SEO Validator https://konversioon.ee/
+* Schema Validator https://validator.schema.org/

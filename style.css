@@ -1,11 +1,13 @@
 /* GENERAL */
 
-*, :after, :before {
-	box-sizing: border-box;
+*,
+:after,
+:before {
+    box-sizing: border-box;
 }
 
 html {
-	height: 100%;
+    height: 100%;
 }
 
 body {
@@ -48,9 +50,9 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-	background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     height: 55px;
-	z-index: 1;
+    z-index: 1;
 }
 
 #menu-button {
@@ -63,8 +65,8 @@ nav {
 
 #menu {
     display: none;
-	flex-direction: column;
-	justify-content: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
     padding: 70px 5px 5px 5px;
     background-color: rgba(0, 0, 0, 0.7);
     text-align: right;
@@ -87,9 +89,11 @@ nav {
     #menu-button {
         display: none;
     }
+
     #menu {
         display: none;
     }
+
     #menu-768 {
         display: flex;
         flex-direction: row;
@@ -98,6 +102,7 @@ nav {
         justify-content: center;
         padding: 5px;
     }
+
     #menu-768 p {
         margin: 10px;
     }
@@ -117,16 +122,25 @@ header img {
 }
 
 /* DESCRIPTION */
+
 #description {
     text-align: center;
     font-size: 1.3em;
     line-height: 1.5em;
     padding: 0 10px 0 10px;
+    margin: 0 auto;
+    max-width: 90%;
 }
 
 #description p {
-    margin: 0;
+    margin: 0.4em auto;
     padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    #description {
+        max-width: 50%;
+    }
 }
 
 /* SHARE */
