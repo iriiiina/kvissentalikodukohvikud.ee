@@ -20,13 +20,13 @@ body {
 
 h1 {
     text-align: center;
-    color: #405d27;
+    color: #e58e26;
     padding: 20px 10px 20px 10px;
 }
 
 h2 {
     text-align: center;
-    color: #405d27;
+    color: #e58e26;
     margin: 0;
     padding: 55px 0 50px 0;
 }
@@ -165,12 +165,37 @@ header img {
 
 /* PROGRAM */
 
-#cafes-section {
+#program-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#program-section h3 {
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #405d27;
+    margin: 0 0 1em 0;
+}
+
+#program-legend {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    margin: 0 0 3em 0;
+}
+
+.legend {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 10px 10px 10px;
+}
+
+.legend img {
+    height: 50px;
+    margin: 0 0.5em;
 }
 
 .cafe {
@@ -205,7 +230,54 @@ header img {
     text-align: center;
 }
 
-.cafe-icons svg {
+.cafe-icons img {
+    height: 30px;
+    margin: 10px 10px 0 10px;
+}
+
+.events {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 0 1em 0;
+}
+
+.event {
+    width: 400px;
+    margin: 0 30px 30px 30px;
+    padding: 20px;
+    border: 1px solid #e58e26;
+    ;
+    border-radius: 10px;
+}
+
+.event-name {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+.event-info {
+    text-align: center;
+    padding: 5px;
+}
+
+.event-info svg {
+    fill: #e58e26;
+    height: 20px;
+}
+
+.event-description {
+    padding: 5px;
+}
+
+.event-icons {
+    text-align: center;
+}
+
+.event-icons img {
     height: 30px;
     margin: 10px 10px 0 10px;
 }

@@ -18,3 +18,5 @@ https://kvissentalikodukohvikud.ee
 * Grid Gallery https://github.com/jestov/grid-gallery
 * SEO Validator https://konversioon.ee/
 * Schema Validator https://validator.schema.org/
+* QR Code Generator https://goqr.me
+* Vector icons https://www.svgrepo.com/collection/openmoji-vectors
