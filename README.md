@@ -20,3 +20,4 @@ https://kvissentalikodukohvikud.ee
 * Schema Validator https://validator.schema.org/
 * QR Code Generator https://goqr.me
 * Vector icons https://www.svgrepo.com/collection/openmoji-vectors
+* Facebook event images are genrated by https://openart.ai
