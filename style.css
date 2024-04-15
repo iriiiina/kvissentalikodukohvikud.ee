@@ -143,6 +143,24 @@ header img {
     }
 }
 
+/* FACEBOOK EVENT */
+
+#facebook-event {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 0.5em 1em 0 1em;
+    border: 3px solid #e58e26;
+    margin: 2em auto;
+    max-width: 90%;
+}
+
+@media only screen and (min-width: 768px) {
+    #facebook-event {
+        max-width: 50%;
+    }
+}
+
 /* SHARE */
 
 #share {
