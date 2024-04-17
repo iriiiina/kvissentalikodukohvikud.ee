@@ -36,6 +36,13 @@ section {
     margin: 0px;
 }
 
+.section {
+    margin: auto;
+    width: 700px;
+    max-width: 90%;
+    padding: 0 10px 0 10px;
+}
+
 a {
     color: #405d27;
 }
@@ -312,27 +319,9 @@ header img {
     border: none;
 }
 
-/* OWNER */
-
-#owner-section {
-    margin: auto;
-    width: 700px;
-    max-width: 90%;
-    padding: 0 10px 0 10px;
-}
-
-/* GUEST */
-
-#guest-section {
-    margin: auto;
-    width: 700px;
-    max-width: 90%;
-    padding: 0 10px 0 10px;
-}
-
 /* ARCHIVE */
 
-#arhiv-section {
+#archive-section {
     text-align: center;
 }
 
