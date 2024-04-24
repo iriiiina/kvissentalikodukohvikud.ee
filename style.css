@@ -21,26 +21,24 @@ body {
 h1 {
     text-align: center;
     color: #e58e26;
-    padding: 20px 10px 20px 10px;
+    padding: 1em;
 }
 
 h2 {
     text-align: center;
     color: #e58e26;
-    margin: 0;
-    padding: 55px 0 50px 0;
+    margin: 2em 0 1em 0;
 }
 
 section {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .section {
     margin: auto;
     width: 700px;
     max-width: 90%;
-    padding: 0 10px 0 10px;
 }
 
 a {
@@ -49,6 +47,10 @@ a {
 
 a:hover {
     color: #e58e26;
+}
+
+.container {
+    padding: 0 1em;
 }
 
 /* NAVIGATION */
@@ -64,9 +66,9 @@ nav {
 
 #menu-button {
     position: fixed;
-    top: 10px;
-    right: 10px;
-    width: 30px;
+    top: 1em;
+    right: 1em;
+    width: 2.5em;
     fill: rgba(100, 100, 100, 1);
 }
 
@@ -74,7 +76,7 @@ nav {
     display: none;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 70px 5px 5px 5px;
+    padding: 6em 0.5em 0.5em 0.5em;
     background-color: rgba(0, 0, 0, 0.7);
     text-align: right;
 }
@@ -84,7 +86,7 @@ nav {
 }
 
 #menu p {
-    margin: 10px;
+    margin: 0.5em;
 }
 
 #menu a {
@@ -107,11 +109,11 @@ nav {
         flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
-        padding: 5px;
+        padding: 0.5em;
     }
 
     #menu-768 p {
-        margin: 10px;
+        margin: 0.5em;
     }
 }
 
@@ -119,13 +121,13 @@ nav {
 
 header {
     text-align: center;
-    margin-top: 55px;
+    margin-top: 4em;
 }
 
 header img {
     width: 90%;
     height: auto;
-    margin: 20px 0 0 0;
+    margin: 1em 0 0 0;
 }
 
 /* DESCRIPTION */
@@ -134,13 +136,12 @@ header img {
     text-align: center;
     font-size: 1.3em;
     line-height: 1.5em;
-    padding: 0 10px 0 10px;
     margin: 0 auto;
     max-width: 90%;
 }
 
 #description p {
-    margin: 0.4em auto;
+    margin: 0.5em auto;
     padding: 0;
 }
 
@@ -172,8 +173,7 @@ header img {
 
 #share {
     text-align: center;
-    margin: 40px 0 20px 0;
-    padding: 20px;
+    padding: 1em 0;
     font-size: 1.5em;
     line-height: 1em;
     background-color: #405d27;
@@ -200,7 +200,7 @@ header img {
     font-size: 2.5em;
     text-transform: uppercase;
     color: #405d27;
-    margin: 0 0 1em 0;
+    margin: 1em 0;
 }
 
 #program-legend {
@@ -208,14 +208,13 @@ header img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 0 3em 0;
+    gap: 0.3em;
 }
 
 .legend {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0px 10px 10px 10px;
 }
 
 .legend img {
@@ -225,8 +224,7 @@ header img {
 
 .cafe {
     width: 400px;
-    margin: 0 30px 30px 30px;
-    padding: 20px;
+    padding: 1em;
     border: 1px solid #405d27;
     border-radius: 10px;
 }
@@ -234,12 +232,12 @@ header img {
 .cafe-name {
     text-align: center;
     font-size: 1.3em;
-    padding: 5px;
+    padding: 0.5em;
 }
 
 .cafe-info {
     text-align: center;
-    padding: 5px;
+    padding: 0.5em;
 }
 
 .cafe-info svg {
@@ -248,7 +246,7 @@ header img {
 }
 
 .cafe-description {
-    padding: 5px;
+    padding: 0.5em;
 }
 
 .cafe-icons {
@@ -257,7 +255,7 @@ header img {
 
 .cafe-icons img {
     height: 30px;
-    margin: 10px 10px 0 10px;
+    margin: 0.5em;
 }
 
 .events {
@@ -266,27 +264,25 @@ header img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    margin: 0 0 1em 0;
+    gap: 2em;
 }
 
 .event {
     width: 400px;
-    margin: 0 30px 30px 30px;
-    padding: 20px;
+    padding: 0.5em;
     border: 1px solid #e58e26;
-    ;
     border-radius: 10px;
 }
 
 .event-name {
     text-align: center;
     font-size: 1.3em;
-    padding: 5px;
+    padding: 0.5em;
 }
 
 .event-info {
     text-align: center;
-    padding: 5px;
+    padding: 0.5em;
 }
 
 .event-info svg {
@@ -295,7 +291,7 @@ header img {
 }
 
 .event-description {
-    padding: 5px;
+    padding: 0.5em;
 }
 
 .event-icons {
@@ -304,7 +300,7 @@ header img {
 
 .event-icons img {
     height: 30px;
-    margin: 10px 10px 0 10px;
+    margin: 0.5em;
 }
 
 /* MAP */
@@ -332,14 +328,14 @@ header img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
     line-height: 1em;
+    gap: 1em;
+    margin-bottom: 3em;
 }
 
 .contact {
     width: 300px;
     text-align: center;
-    padding: 10px 0 10px 0;
 }
 
 .contact img {
@@ -354,7 +350,7 @@ footer {
     color: white;
     text-align: center;
     line-height: 0.5em;
-    padding: 20px 0 20px 0;
+    padding: 2em 0;
 }
 
 footer a {
