@@ -376,3 +376,8 @@ footer a:hover {
 .event .svg-in-text {
     filter: invert(61%) sepia(64%) saturate(1002%) hue-rotate(346deg) brightness(96%) contrast(86%);
 }
+
+.cafe-info  .svg-in-text:not(:first-child),
+.event-info .svg-in-text:not(:first-child) {
+    padding-left: 2ex;
+}
