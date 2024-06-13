@@ -360,3 +360,19 @@ footer a {
 footer a:hover {
     color: #e58e26;
 }
+
+/* SVG */
+
+.svg-in-text {
+    max-height: 1.25rem;
+    vertical-align: -0.25rem;
+}
+
+.cafe .svg-in-text {
+    /* https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element */
+    filter: invert(32%) sepia(10%) saturate(1959%) hue-rotate(49deg) brightness(96%) contrast(95%);
+}
+
+.event .svg-in-text {
+    filter: invert(61%) sepia(64%) saturate(1002%) hue-rotate(346deg) brightness(96%) contrast(86%);
+}
