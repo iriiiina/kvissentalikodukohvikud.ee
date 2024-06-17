@@ -3,689 +3,823 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kvissentali kodukohvikute päev</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kvissentali kodukohvikute päev 2023</title>
 
-  <!-- SEO -->
-  <link rel="manifest" href="manifest.json">
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#405d27">
-  <meta name="msapplication-TileColor" content="#405d27">
-  <meta name="theme-color" content="#405d27">
+    <!-- SEO -->
+    <link rel="manifest" href="manifest.json">
 
-  <meta name="description" content="Kvissentali kodukohvikute päeva kirjeldus, programm, kaart ja muu oluline info"/>
-  <meta property="og:url" content="https://kvissentalikodukohvikud.ee"/>
-  <meta property="og:type" content="website"/> 
-  <meta property="og:title" content="Kvissentali kodukohvikute päev"/>
-  <meta property="og:site_name" content="Kvissentali kodukohvikute päev"/>
-  <meta property="og:description" content="Kvissentali kodukohvikute päeva kirjeldus, programm, kaart ja muu oluline info"/>
-  <meta property="og:image" content="favicon/preview.png"/>
-  <meta property="og:image:url" content="https://kvissentalikodukohvikud.ee/2023/favicon/preview.png"/>
-  <meta property="og:image:secure_url" content="https://kvissentalikodukohvikud.ee/2023/favicon/preview.png"/>
-  <meta property="og:image:type" content="image/png"/>
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
-  <meta property="og:locale" content="et-EE"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#405d27">
+    <meta name="msapplication-TileColor" content="#405d27">
+    <meta name="theme-color" content="#405d27">
 
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="description" content="Kvissentali kodukohvikute päeva kirjeldus, programm, kaart ja muu oluline info" />
+    <meta property="og:url" content="https://kvissentalikodukohvikud.ee" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Kvissentali kodukohvikute päev 2023" />
+    <meta property="og:site_name" content="Kvissentali kodukohvikute päev 2023" />
+    <meta property="og:description"
+        content="Kvissentali kodukohvikute päeva kirjeldus, programm, kaart ja muu oluline info" />
+    <meta property="og:image" content="favicon/preview.png" />
+    <meta property="og:image:url" content="https://kvissentalikodukohvikud.ee/2023/favicon/preview.png" />
+    <meta property="og:image:secure_url" content="https://kvissentalikodukohvikud.ee/2023/favicon/preview.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="et-EE" />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-  <!-- Grid Gallery -->
-  <link rel="stylesheet" type="text/css" href="grid-gallery/css/grid-gallery.min.css"/>
-  
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Grid Gallery -->
+    <link rel="stylesheet" type="text/css" href="grid-gallery/css/grid-gallery.min.css" />
+
 </head>
 
 <body>
 
     <script>
         function toggleMenu() {
-          var menu = document.getElementById("menu");
-          var menuButton = document.getElementById("menu-button");
-          if (menu.style.display === "none") {
-            menu.style.display = "flex";
-            menuButton.style.fill = "white";
-          } else {
-            menu.style.display = "none";
-            menuButton.style.fill = "#636e72";
-          }
+            var menu = document.getElementById("menu");
+            var menuButton = document.getElementById("menu-button");
+            if (menu.style.display === "none") {
+                menu.style.display = "flex";
+                menuButton.style.fill = "white";
+            } else {
+                menu.style.display = "none";
+                menuButton.style.fill = "#636e72";
+            }
         }
-    
+
         function closeMenu() {
-          document.getElementById("menu").style.display = "none";
-          document.getElementById("menu-button").style.fill = "#636e72";
+            document.getElementById("menu").style.display = "none";
+            document.getElementById("menu-button").style.fill = "#636e72";
         }
-    
+
     </script>
-    
-  <nav>
 
-    <svg id="menu-button" onClick="toggleMenu()" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-        <title>Menu</title>
-        <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path>
-    </svg>
+    <nav>
 
-    <div id="menu-768">
-        <p><a href="../index.html">&larr;&nbsp;Tagasi</a></p>
-        <p class="menu-divider">&#10045;</p>
-        <p><a href="#cafes">Programm</a></p>
-        <p class="menu-divider">&#10045;</p>
-        <p><a href="#map">Kaart</a></p>
-        <p class="menu-divider">&#10045;</p>
-        <p><a href="#owner">Pererahvale</a></p>
-        <p class="menu-divider">&#10045;</p>
-        <p><a href="#guest">Külastajale</a></p>
-        <p class="menu-divider">&#10045;</p>
-        <p><a href="#pictures">Pildid</a></p>
-        <p class="menu-divider">&#10045;</p>
-        <p><a href="#contacts">Kontaktid</a></p>
-    </div>
+        <svg id="menu-button" onClick="toggleMenu()" aria-hidden="true" focusable="false" role="img"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <title>Menu</title>
+            <path
+                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+            </path>
+        </svg>
 
-    <div id="menu">
-        <p><a onClick="closeMenu()" href="../index.html">&larr;&nbsp;Tagasi</a></p>
-        <p><a onClick="closeMenu()" href="#cafes">Programm</a></p>
-        <p><a onClick="closeMenu()" href="#map">Kaart</a></p>
-        <p><a onClick="closeMenu()" href="#owner">Pererahvale</a></p>
-        <p><a onClick="closeMenu()" href="#guest">Külastajale</a></p>
-        <p><a onclick="closeMenu()" href="#pictures">Pildid</a></p>
-        <p><a onClick="closeMenu()" href="#contacts">Kontaktid</a></p>
-    </div>
+        <div id="menu-768">
+            <p><a href="../index.html">&larr;&nbsp;Tagasi</a></p>
+            <p class="menu-divider">&#10045;</p>
+            <p><a href="#cafes">Programm</a></p>
+            <p class="menu-divider">&#10045;</p>
+            <p><a href="#map">Kaart</a></p>
+            <p class="menu-divider">&#10045;</p>
+            <p><a href="#owner">Pererahvale</a></p>
+            <p class="menu-divider">&#10045;</p>
+            <p><a href="#guest">Külastajale</a></p>
+            <p class="menu-divider">&#10045;</p>
+            <p><a href="#pictures">Pildid</a></p>
+            <p class="menu-divider">&#10045;</p>
+            <p><a href="#contacts">Kontaktid</a></p>
+        </div>
 
-  </nav>
+        <div id="menu">
+            <p><a onClick="closeMenu()" href="../index.html">&larr;&nbsp;Tagasi</a></p>
+            <p><a onClick="closeMenu()" href="#cafes">Programm</a></p>
+            <p><a onClick="closeMenu()" href="#map">Kaart</a></p>
+            <p><a onClick="closeMenu()" href="#owner">Pererahvale</a></p>
+            <p><a onClick="closeMenu()" href="#guest">Külastajale</a></p>
+            <p><a onclick="closeMenu()" href="#pictures">Pildid</a></p>
+            <p><a onClick="closeMenu()" href="#contacts">Kontaktid</a></p>
+        </div>
 
-  <header>
-      <img src="img/trees-color.png" width="1198" height="200" loading="lazy" alt="Joonistatud elupuud"/>
-      <h1>II Kvissentali kodukohvikute päev<br/>
-      3. juunil 2023</h1>
-  </header>
+    </nav>
 
-  <main>
+    <header>
+        <img src="img/trees-color.png" width="1198" height="200" loading="lazy" alt="Joonistatud elupuud" />
+        <h1>II Kvissentali kodukohvikute päev<br />
+            3. juunil 2023</h1>
+    </header>
 
-    <section id="description">
-      <p>Oma osalusest palun anna teada Facebookis: <a href="https://fb.me/e/GpsQNtbo" target="_blank">Kvissentali kodukohvikute päev</a></p>
-    </section>
+    <main>
 
-    <section id="share">
-        <p>Tehke pildid ja jagage neid Instagramis!</p>
-        <p><a href="https://www.instagram.com/explore/tags/kvissentalikodukohvikud/" title="Instagrami tag #kvissentalikodukohvikud">#kvissentalikodukohvikud</a></p>
+        <section id="description">
+            <p>Oma osalusest palun anna teada Facebookis: <a href="https://fb.me/e/GpsQNtbo" target="_blank">Kvissentali
+                    kodukohvikute päev</a></p>
+        </section>
+
+        <section id="share">
+            <p>Tehke pildid ja jagage neid Instagramis!</p>
+            <p><a href="https://www.instagram.com/explore/tags/kvissentalikodukohvikud/"
+                    title="Instagrami tag #kvissentalikodukohvikud">#kvissentalikodukohvikud</a></p>
+            <p><a href="https://www.instagram.com/explore/tags/kvikoko/" title="Instagrami tag #kvikoko">#kvikoko</a>
+            </p>
+        </section>
+
+        <h2 id="cafes">Programm</h2>
+        <section id="cafes-section">
+
+            <div class="cafe">
+                <div class="cafe-name">Lota juures</div>
+                <div class="cafe-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z" />
+                    </svg>
+                    Hauskari 2-3&nbsp;&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z" />
+                    </svg>
+                    11 kuni 16
+                </div>
+                <div class="cafe-description">
+                    <p>Kohvikus müügil erinevad soolased ja magusad suupisted. Lastele suur batuut, heeliumõhupallid
+                        ning puudu pole ka pehmejäätisemasin🍦!</p>
+                </div>
+                <div class="cafe-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;"
+                        alt="Lapsed on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Lapsed on oodatud</title>
+                        <path
+                            d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;"
+                        alt="Koduloomad on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Koduloomad on oodatud</title>
+                        <path
+                            d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Õuekohvik</title>
+                        <path
+                            d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="cafe">
+                <div class="cafe-name">Tänavaraamatukogu</div>
+                <div class="cafe-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z" />
+                    </svg>
+                    Kvissentali Tänavaraamatukogu (Klaose 4)&nbsp;&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z" />
+                    </svg>
+                    10 kuni 18
+                </div>
+                <div class="cafe-description">
+                    <p>Tänavaraamatukogu taas pakub koduküpsiseid&nbsp;🍪! Instagrami kontol saab jälgida mis küpsised
+                        sinna tulevad ja mis kell neid haarata saab!</p>
+                    <p style="text-align: center;"><a href="https://www.instagram.com/kvissentali_tanavaraamatukogu/"
+                            target="_blank">@kvissentali_tanavaraamatukogu</a></p>
+                </div>
+                <div class="cafe-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;"
+                        alt="Lapsed on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Lapsed on oodatud</title>
+                        <path
+                            d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;"
+                        alt="Koduloomad on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Koduloomad on oodatud</title>
+                        <path
+                            d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Õuekohvik</title>
+                        <path
+                            d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="cafe">
+                <div class="cafe-name">EluPuu</div>
+                <div class="cafe-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z" />
+                    </svg>
+                    Klaose 4-2 (terrass)&nbsp;&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z" />
+                    </svg>
+                    11:30 kuni 18
+                </div>
+                <div class="cafe-description">
+                    <p>🥣 paprika ja suitsujuustu püreesupp<br />
+                        🌽 grillitud mais<br />
+                        🥕 porgandikeeks<br />
+                        🍓 maasikad</p>
+                    <p>Lisaks on võimalik soetada meie vanaema õlimaalid 🎨</p>
+                </div>
+                <div class="cafe-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Vegan">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Vegan</title>
+                        <path
+                            d="M512 165.4c0 127.9-70.05 235.3-175.3 270.1c-20.04 7.938-41.83 12.46-64.69 12.46c-64.9 0-125.2-36.51-155.7-94.47c-54.13 49.93-68.71 107-68.96 108.1C44.72 472.6 34.87 480 24.02 480c-1.844 0-3.727-.2187-5.602-.6562c-12.89-3.098-20.84-16.08-17.75-28.96c9.598-39.5 90.47-226.4 335.3-226.4C344.8 224 352 216.8 352 208S344.8 192 336 192C228.6 192 151 226.6 96.29 267.6c.1934-10.82 1.242-21.84 3.535-33.05c13.47-65.81 66.04-119 131.4-134.2c28.33-6.562 55.68-6.013 80.93-.0054c56 13.32 118.2-7.412 149.3-61.24c5.664-9.828 20.02-9.516 24.66 .8282C502.7 76.76 512 121.9 512 165.4z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;"
+                        alt="Lapsed on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Lapsed on oodatud</title>
+                        <path
+                            d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;"
+                        alt="Koduloomad on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Koduloomad on oodatud</title>
+                        <path
+                            d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Õuekohvik</title>
+                        <path
+                            d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="cafe">
+                <div class="cafe-name">Vahvlik</div>
+                <div class="cafe-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z" />
+                    </svg>
+                    Mänguväljaku kõrval&nbsp;&nbsp;&nbsp;
+                </div>
+                <div class="cafe-description">
+                    <p>Retro vahvlid 🧇 ja lihapirukad 🥠</p>
+                </div>
+                <div class="cafe-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;"
+                        alt="Lapsed on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Lapsed on oodatud</title>
+                        <path
+                            d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;"
+                        alt="Koduloomad on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Koduloomad on oodatud</title>
+                        <path
+                            d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Õuekohvik</title>
+                        <path
+                            d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="cafe">
+                <div class="cafe-name">Taevalaevad</div>
+                <div class="cafe-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z" />
+                    </svg>
+                    Klaose 14-5&nbsp;&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z" />
+                    </svg>
+                    10 kuni 18
+                </div>
+                <div class="cafe-description">
+                    <p>Pariisi õunakook 🍰</p>
+                </div>
+                <div class="cafe-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Vegan">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Vegan</title>
+                        <path
+                            d="M512 165.4c0 127.9-70.05 235.3-175.3 270.1c-20.04 7.938-41.83 12.46-64.69 12.46c-64.9 0-125.2-36.51-155.7-94.47c-54.13 49.93-68.71 107-68.96 108.1C44.72 472.6 34.87 480 24.02 480c-1.844 0-3.727-.2187-5.602-.6562c-12.89-3.098-20.84-16.08-17.75-28.96c9.598-39.5 90.47-226.4 335.3-226.4C344.8 224 352 216.8 352 208S344.8 192 336 192C228.6 192 151 226.6 96.29 267.6c.1934-10.82 1.242-21.84 3.535-33.05c13.47-65.81 66.04-119 131.4-134.2c28.33-6.562 55.68-6.013 80.93-.0054c56 13.32 118.2-7.412 149.3-61.24c5.664-9.828 20.02-9.516 24.66 .8282C502.7 76.76 512 121.9 512 165.4z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;"
+                        alt="Lapsed on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Lapsed on oodatud</title>
+                        <path
+                            d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;"
+                        alt="Koduloomad on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Koduloomad on oodatud</title>
+                        <path
+                            d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Õuekohvik</title>
+                        <path
+                            d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="cafe">
+                <div class="cafe-name">Lapsed Letis</div>
+                <div class="cafe-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z" />
+                    </svg>
+                    Riistapuu 3&nbsp;&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z" />
+                    </svg>
+                    10 kuni 13
+                </div>
+                <div class="cafe-description">
+                    <p>Lapsed letis kohvikus pakuvad sõbrannad magusat ja soolast ampsu kohapeal ja kaasa võtmiseks
+                        eelkõige lastele, aga peame meeles ka täiskasvanuid.</p>
+                </div>
+                <div class="cafe-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;"
+                        alt="Lapsed on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Lapsed on oodatud</title>
+                        <path
+                            d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;"
+                        alt="Koduloomad on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Koduloomad on oodatud</title>
+                        <path
+                            d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Õuekohvik</title>
+                        <path
+                            d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="cafe">
+                <div class="cafe-name">Maitserõõm</div>
+                <div class="cafe-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z" />
+                    </svg>
+                    Pootsmani 12&nbsp;&nbsp;&nbsp;
+                </div>
+                <div class="cafe-description">
+                    <p>Sel aastal on kohviku esientusiastideks kaks last, kes koguvad taskuraha suvel ees ootavateks
+                        seiklusteks.</p>
+                    <p>Kohvikus ka sel aastal eelmise aasta hitid:<br />
+                        - muffinid toorjuustukreemiga<br />
+                        - kapsapirukas<br />
+                        - rabarberikissell<br />
+                        - juustused tokisaiad, mille igaüks saab endale lõkkel ise valmis küpsetada<br />
+                        - lisaks pakume veel aasiapärast nuudlisalatit ja suvist kinoasalatit kikerhernestega, vahvleid
+                        ja marja-purukooki, riisigalette datlikaramelli ja koduse müsliga ning janu saab kustutada
+                        värskendava sidrunilimpsi ja taimeteega.</p>
+                    <p>Lapsed saavad batuudil hüpata ja poriköögis maitsvaid roogasid valmistada, ronida ja liivakastis
+                        mängida.</p>
+                    <p>Kohtume juba siin, Maitserõõmus!</p>
+                </div>
+                <div class="cafe-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Vegan">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Vegan</title>
+                        <path
+                            d="M512 165.4c0 127.9-70.05 235.3-175.3 270.1c-20.04 7.938-41.83 12.46-64.69 12.46c-64.9 0-125.2-36.51-155.7-94.47c-54.13 49.93-68.71 107-68.96 108.1C44.72 472.6 34.87 480 24.02 480c-1.844 0-3.727-.2187-5.602-.6562c-12.89-3.098-20.84-16.08-17.75-28.96c9.598-39.5 90.47-226.4 335.3-226.4C344.8 224 352 216.8 352 208S344.8 192 336 192C228.6 192 151 226.6 96.29 267.6c.1934-10.82 1.242-21.84 3.535-33.05c13.47-65.81 66.04-119 131.4-134.2c28.33-6.562 55.68-6.013 80.93-.0054c56 13.32 118.2-7.412 149.3-61.24c5.664-9.828 20.02-9.516 24.66 .8282C502.7 76.76 512 121.9 512 165.4z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;"
+                        alt="Lapsed on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Lapsed on oodatud</title>
+                        <path
+                            d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;"
+                        alt="Koduloomad on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Koduloomad on oodatud</title>
+                        <path
+                            d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Õuekohvik</title>
+                        <path
+                            d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="cafe">
+                <div class="cafe-name">Naked Fish</div>
+                <div class="cafe-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z" />
+                    </svg>
+                    Kapteni 5&nbsp;&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z" />
+                    </svg>
+                    11 kuni 16
+                </div>
+                <div class="cafe-description">
+                    <p>Kvissentali II kodukohvikute päeva raames avab end üheks päevaks Restoran Naked Fish.</p>
+                    <p>Restoran Naked Fish ootab laua broneeriunguid ette. Kindlustad endale mugava istekoha (max 6 in
+                        korraga) pehmel diivanil vaatega Emajõele, kui registreerid oma soovi hiljemalt 30.05.2023: <a
+                            href="https://forms.gle/PXTSpG2mZupEzj3o6"
+                            target="_blank">https://forms.gle/PXTSpG2mZupEzj3o6</a>.</p>
+                    <p>Menüüs on kvaliteetne eestimaine mahlane forellifilee Pähkla kalakasvatusest koos hooajaliste
+                        lisanditega. Maitseid aitab tasakaalustada asjakohane jahe jook 😉</p>
+                </div>
+                <div class="cafe-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;"
+                        alt="Lapsed on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Lapsed on oodatud</title>
+                        <path
+                            d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Õuekohvik</title>
+                        <path
+                            d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="cafe">
+                <div class="cafe-name">Sōstramekk koogipood</div>
+                <div class="cafe-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z" />
+                    </svg>
+                    Kapteni 5&nbsp;&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z" />
+                    </svg>
+                    11 kuni 16
+                </div>
+                <div class="cafe-description">
+                    <p>🍰 valik Sõstarmekk kooke<br />
+                        🍦 pehme jäätis</p>
+                    <p>Ainult kaasamüük.</p>
+                    <p>FB: <a href="https://www.facebook.com/sostramekk" target="_blank">Sõstramekk</a><br />
+                        IG: <a href="https://www.instagram.com/sostramekk/" target="_blank">sostramekk</a></p>
+                </div>
+                <div class="cafe-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;"
+                        alt="Lapsed on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Lapsed on oodatud</title>
+                        <path
+                            d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Õuekohvik</title>
+                        <path
+                            d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="cafe">
+                <div class="cafe-name">Café Amore Mio</div>
+                <div class="cafe-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z" />
+                    </svg>
+                    Klaose 5-3 (terrass)&nbsp;&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z" />
+                    </svg>
+                    11 kuni 16
+                </div>
+                <div class="cafe-description">
+                    <p>Café Amore Mio pakub laia valikut Itaalia toitu. Meie menüü koosneb erinevatest pastadest,
+                        Vahemere salatitest ja snäkkidest, meie ehtsast focacciast ja tiramisust ja paljust muust.
+                        Pakume ka taimetoitu. Buon appetito!</p>
+                </div>
+                <div class="cafe-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Vegan">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Vegan</title>
+                        <path
+                            d="M512 165.4c0 127.9-70.05 235.3-175.3 270.1c-20.04 7.938-41.83 12.46-64.69 12.46c-64.9 0-125.2-36.51-155.7-94.47c-54.13 49.93-68.71 107-68.96 108.1C44.72 472.6 34.87 480 24.02 480c-1.844 0-3.727-.2187-5.602-.6562c-12.89-3.098-20.84-16.08-17.75-28.96c9.598-39.5 90.47-226.4 335.3-226.4C344.8 224 352 216.8 352 208S344.8 192 336 192C228.6 192 151 226.6 96.29 267.6c.1934-10.82 1.242-21.84 3.535-33.05c13.47-65.81 66.04-119 131.4-134.2c28.33-6.562 55.68-6.013 80.93-.0054c56 13.32 118.2-7.412 149.3-61.24c5.664-9.828 20.02-9.516 24.66 .8282C502.7 76.76 512 121.9 512 165.4z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;"
+                        alt="Lapsed on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Lapsed on oodatud</title>
+                        <path
+                            d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;"
+                        alt="Koduloomad on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Koduloomad on oodatud</title>
+                        <path
+                            d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Õuekohvik</title>
+                        <path
+                            d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="cafe">
+                <div class="cafe-name">West Coast Coffee</div>
+                <div class="cafe-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z" />
+                    </svg>
+                    Hauskari 8-1&nbsp;&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z" />
+                    </svg>
+                    10 kuni kohvi jätkub (36 tassi)
+                </div>
+                <div class="cafe-description">
+                    <p>EST (ENG below)</p>
+                    <p>Saabusime eile Eestisse USA-st ja Kanadast ja tõime kaasa parimaid kohviubasid. Denis (Kanadast,
+                        ENG/RU) on suur kohvipro, kes on maitsnud parimaid ubasid üle maailma ja oskab teha Specialty
+                        Coffee. Meil on väga värsked oad, iga tass tehakse tellimuse ajal, saate ka kohvi kohta küsida
+                        ja rohkem õppida. Ubasid on ainult 36 tassile!</p>
+                    <p>Menüü</p>
+                    <p>Aeropressis valmistatud must kohv - 3 eur/tass. Oma tassiga tulles, hind on 2.75 eur.<br />
+                        Väga lux oad, seega ärge oodake suhkrut või piima :)</p>
+                    <p>🍁 Nemesis Coffee | Vancouver, Briti Columbia, Kanada<br />
+                        Tootja: Angel Arturo Paz, El Itacayo | Honduras<br />
+                        Sort: pacas, pestud protsess<br />
+                        Maitse märkmed: kuivatatud ploom, rooma õun, brownie</p>
+                    <p>🌉 Blue Bottle Coffee | San Francisco, Kalifornia, Ameerika Ühendriigid<br />
+                        Tootja: Ngozi Bavyeyi | Burundi<br />
+                        Sort: bourbon, loomulik protsess<br />
+                        Maitse märkmed: ploom, sidrunikoor, karamell</p>
+                    <p>ENG</p>
+                    <p>We just arrived from the West Coast of US/Canada yesterday and brought some best coffee beans to
+                        share! Denis (from Canada, ENG/RU) is a huge coffee person who has travelled the world to try
+                        the rarest/best coffee beans around the world. He chose two different bean types/roasteries to
+                        share with you and will make the Specialty Coffee to order. Come to learn more about coffee and
+                        try it out! We have beans for 36 cups only. This is black specialty coffee, so don't expect milk
+                        or sugar. :)</p>
+                    <p>Menu</p>
+                    <p>Black coffee made in an AeroPress</p>
+                    <p>🍁 Nemesis Coffee | Vancouver, British Columbia, Canada<br />
+                        Producer: Angel Arturo Paz, El Itacayo | Honduras<br />
+                        Variety: pacas, washed process<br />
+                        Notes of: prune, rome apple, brownie</p>
+                    <p>🌉 Blue Bottle Coffee | San Francisco, California, USA<br />
+                        Producer: Ngozi Bavyeyi | Burundi<br />
+                        Variety: bourbon, natural process<br />
+                        Notes of: plum, lemon zest, caramel</p>
+                </div>
+                <div class="cafe-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Vegan">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Vegan</title>
+                        <path
+                            d="M512 165.4c0 127.9-70.05 235.3-175.3 270.1c-20.04 7.938-41.83 12.46-64.69 12.46c-64.9 0-125.2-36.51-155.7-94.47c-54.13 49.93-68.71 107-68.96 108.1C44.72 472.6 34.87 480 24.02 480c-1.844 0-3.727-.2187-5.602-.6562c-12.89-3.098-20.84-16.08-17.75-28.96c9.598-39.5 90.47-226.4 335.3-226.4C344.8 224 352 216.8 352 208S344.8 192 336 192C228.6 192 151 226.6 96.29 267.6c.1934-10.82 1.242-21.84 3.535-33.05c13.47-65.81 66.04-119 131.4-134.2c28.33-6.562 55.68-6.013 80.93-.0054c56 13.32 118.2-7.412 149.3-61.24c5.664-9.828 20.02-9.516 24.66 .8282C502.7 76.76 512 121.9 512 165.4z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;"
+                        alt="Lapsed on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Lapsed on oodatud</title>
+                        <path
+                            d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;"
+                        alt="Koduloomad on oodatud">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Koduloomad on oodatud</title>
+                        <path
+                            d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <title>Õuekohvik</title>
+                        <path
+                            d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z" />
+                    </svg>
+                </div>
+            </div>
+
+        </section>
+
+        <h2 id="map">Kaart</h2>
+        <section id="map-section">
+
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1VmzNOx1jfIM1o0B8O7p1xSSFm2HHBF0&ehbc=2E312F"
+                width="1000" height="600"></iframe>
+
+        </section>
+
+        <h2 id="owner">Pererahvale</h2>
+        <section id="owner-section">
+            <p>&#10022; Valmista ette mingid istumiskohad oma külastajatele (kasvõi pikniku pleed muru peal)</p>
+            <p>&#10023; Kuna külastajad tõenäoliselt maksavad sularahaga, siis palun valmista ette tagastusraha</p>
+            <p>&#10022; Valmista ette suur prügikast, et prügi ei jääks su muru peale</p>
+            <p>&#10023; Palun märgi kohviku kirjelduses kas koduloomad on oodatud sinu kohvikus või mitte</p>
+        </section>
+
+        <h2 id="guest">Külastajale</h2>
+        <section id="guest-section">
+            <p>&#10022; Suhtu pererahva kodusse hoolivalt</p>
+            <p>&#10023; Ära jäta enda prügi</p>
+            <p>&#10022; Võta kaasa väikese nominaaliga sularaha</p>
+            <p>&#10023; Ole keskkonnasäästlik - võta kodust kaasa oma tass</p>
+            <p>&#10022; Kohapeal võivad olla pererahva enda koduloomad ja väikesed lapsed. Palun jälgi kas kohviku
+                kirjelduses on koera pilt või mitte. Kui koera pildi pole, siis palun jäta kodulooma väljaspool kohviku
+                ala.</p>
+        </section>
+
+        <h2 id="pictures">Pildid</h2>
+        <section id="pictures-section">
+
+            <div class="gg-container">
+                <div class="gg-box">
+                    <img src="pictures/1.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/2.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/3.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/4.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/5.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/6.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/7.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/8.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/9.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/10.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/11.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/12.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/13.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/14.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/15.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/16.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/17.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/18.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/19.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/20.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/21.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/22.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/23.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/24.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/25.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/26.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/27.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/28.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/29.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/30.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/31.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/32.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/33.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/34.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/35.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/36.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/37.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/38.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/39.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/40.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/41.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                    <img src="pictures/42.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023" />
+                </div>
+            </div>
+
+        </section>
+
+        <h2 id="contacts">Kontaktid</h2>
+        <section id="contacts-section">
+
+            <div class="contact">
+                <img src="img/anna.png" width="200" height="200" loading="lazy" alt="Anna Aljanaki pilt" />
+                <h3>Anna Aljanaki</h3>
+                <p><a href="https://www.facebook.com/anna.aljanaki.14" title="Facebook konto: Anna Aljanaki">Facebook
+                        Messages</a></p>
+                <p><a href="mailto:aljanaki@gmail.com" title="Email: aljanaki@gmail.com">aljanaki@gmail.com</a></p>
+            </div>
+
+            <div class="contact">
+                <img src="img/irina.png" width="200" height="200" loading="lazy" alt="Irina Ivanova pilt" />
+                <h3>Irina Ivanova</h3>
+                <p><a href="https://www.facebook.com/iiiirina.ivanova/" title="Facebook konto: Irina Ivanova">Facebook
+                        Messages</a></p>
+                <p><a href="mailto:irina.ivanova@protonmail.com"
+                        title="Email: irina.ivanova@protonmail.com">irina.ivanova@protonmail.com</a></p>
+            </div>
+
+            <div class="contact">
+                <img src="img/nikita.png" width="200" height="200" loading="lazy" alt="Nikita Ivanov pilt" />
+                <h3>Nikita Ivanov</h3>
+                <p><a href="https://www.facebook.com/gregorianisch" title="Facebook konto: Nikita Ivanov">Facebook
+                        Messages</a></p>
+                <p><a href="mailto:gregorianisch@gmail.com"
+                        title="Email: gregorianisch@gmail.com">gregorianisch@gmail.com</a></p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>2023</p>
+        <p><a href="https://www.instagram.com/explore/tags/kvissentalikodukohvikud/"
+                title="Instagrami tag #kvissentalikodukohvikud">#kvissentalikodukohvikud</a></p>
         <p><a href="https://www.instagram.com/explore/tags/kvikoko/" title="Instagrami tag #kvikoko">#kvikoko</a></p>
-    </section>
+    </footer>
 
-    <h2 id="cafes">Programm</h2>
-    <section id="cafes-section">
-
-        <div class="cafe">
-            <div class="cafe-name">Lota juures</div>
-            <div class="cafe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/>
-                </svg>
-                Hauskari 2-3&nbsp;&nbsp;&nbsp;
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/>
-                </svg>
-                11 kuni 16</div>
-            <div class="cafe-description">
-                <p>Kohvikus müügil erinevad soolased ja magusad suupisted. Lastele suur batuut, heeliumõhupallid ning puudu pole ka pehmejäätisemasin🍦!</p></div>
-            <div class="cafe-icons">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Lapsed on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Lapsed on oodatud</title>
-                    <path d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;" alt="Koduloomad on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Koduloomad on oodatud</title>
-                    <path d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Õuekohvik</title>
-                    <path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/>
-                </svg>
-            </div>
-        </div>
-
-        <div class="cafe">
-            <div class="cafe-name">Tänavaraamatukogu</div>
-            <div class="cafe-info">
-               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/>
-                </svg>
-                Kvissentali Tänavaraamatukogu (Klaose 4)&nbsp;&nbsp;&nbsp;
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/>
-                </svg>
-                10 kuni 18</div>
-            <div class="cafe-description">
-                <p>Tänavaraamatukogu taas pakub koduküpsiseid&nbsp;🍪! Instagrami kontol saab jälgida mis küpsised sinna tulevad ja mis kell neid haarata saab!</p>
-                <p style="text-align: center;"><a href="https://www.instagram.com/kvissentali_tanavaraamatukogu/" target="_blank">@kvissentali_tanavaraamatukogu</a></p></div>
-            <div class="cafe-icons">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Lapsed on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Lapsed on oodatud</title>
-                    <path d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;" alt="Koduloomad on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Koduloomad on oodatud</title>
-                    <path d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Õuekohvik</title>
-                    <path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/>
-                </svg>
-            </div>
-        </div>
-
-        <div class="cafe">
-            <div class="cafe-name">EluPuu</div>
-            <div class="cafe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/>
-                </svg>
-                Klaose 4-2 (terrass)&nbsp;&nbsp;&nbsp;
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/>
-                </svg>
-                11:30 kuni 18</div>
-            <div class="cafe-description">
-                <p>🥣 paprika ja suitsujuustu püreesupp<br/>
-                🌽 grillitud mais<br/>
-                🥕 porgandikeeks<br/>
-                🍓 maasikad</p>
-            <p>Lisaks on võimalik soetada meie vanaema õlimaalid 🎨</p></div>
-            <div class="cafe-icons">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Vegan">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Vegan</title>
-                    <path d="M512 165.4c0 127.9-70.05 235.3-175.3 270.1c-20.04 7.938-41.83 12.46-64.69 12.46c-64.9 0-125.2-36.51-155.7-94.47c-54.13 49.93-68.71 107-68.96 108.1C44.72 472.6 34.87 480 24.02 480c-1.844 0-3.727-.2187-5.602-.6562c-12.89-3.098-20.84-16.08-17.75-28.96c9.598-39.5 90.47-226.4 335.3-226.4C344.8 224 352 216.8 352 208S344.8 192 336 192C228.6 192 151 226.6 96.29 267.6c.1934-10.82 1.242-21.84 3.535-33.05c13.47-65.81 66.04-119 131.4-134.2c28.33-6.562 55.68-6.013 80.93-.0054c56 13.32 118.2-7.412 149.3-61.24c5.664-9.828 20.02-9.516 24.66 .8282C502.7 76.76 512 121.9 512 165.4z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Lapsed on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Lapsed on oodatud</title>
-                    <path d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;" alt="Koduloomad on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Koduloomad on oodatud</title>
-                    <path d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Õuekohvik</title>
-                    <path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/>
-                </svg>
-            </div>
-        </div>
-
-        <div class="cafe">
-            <div class="cafe-name">Vahvlik</div>
-            <div class="cafe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/>
-                </svg>
-                Mänguväljaku kõrval&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="cafe-description">
-                <p>Retro vahvlid 🧇 ja lihapirukad 🥠</p></div>
-            <div class="cafe-icons">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Lapsed on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Lapsed on oodatud</title>
-                    <path d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;" alt="Koduloomad on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Koduloomad on oodatud</title>
-                    <path d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Õuekohvik</title>
-                    <path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/>
-                </svg>
-            </div>
-        </div>
-
-        <div class="cafe">
-            <div class="cafe-name">Taevalaevad</div>
-            <div class="cafe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/>
-                </svg>
-                Klaose 14-5&nbsp;&nbsp;&nbsp;
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/>
-                </svg>
-                10 kuni 18</div>
-            <div class="cafe-description">
-                <p>Pariisi õunakook 🍰</p></div>
-            <div class="cafe-icons">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Vegan">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Vegan</title>
-                    <path d="M512 165.4c0 127.9-70.05 235.3-175.3 270.1c-20.04 7.938-41.83 12.46-64.69 12.46c-64.9 0-125.2-36.51-155.7-94.47c-54.13 49.93-68.71 107-68.96 108.1C44.72 472.6 34.87 480 24.02 480c-1.844 0-3.727-.2187-5.602-.6562c-12.89-3.098-20.84-16.08-17.75-28.96c9.598-39.5 90.47-226.4 335.3-226.4C344.8 224 352 216.8 352 208S344.8 192 336 192C228.6 192 151 226.6 96.29 267.6c.1934-10.82 1.242-21.84 3.535-33.05c13.47-65.81 66.04-119 131.4-134.2c28.33-6.562 55.68-6.013 80.93-.0054c56 13.32 118.2-7.412 149.3-61.24c5.664-9.828 20.02-9.516 24.66 .8282C502.7 76.76 512 121.9 512 165.4z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Lapsed on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Lapsed on oodatud</title>
-                    <path d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;" alt="Koduloomad on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Koduloomad on oodatud</title>
-                    <path d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Õuekohvik</title>
-                    <path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/>
-                </svg>
-            </div>
-        </div>
-
-        <div class="cafe">
-            <div class="cafe-name">Lapsed Letis</div>
-            <div class="cafe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/>
-                </svg>
-                Riistapuu 3&nbsp;&nbsp;&nbsp;
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/>
-                </svg>
-                10 kuni 13</div>
-            <div class="cafe-description">
-                <p>Lapsed letis kohvikus pakuvad sõbrannad magusat ja soolast ampsu kohapeal ja kaasa võtmiseks eelkõige lastele, aga peame meeles ka täiskasvanuid.</p></div>
-            <div class="cafe-icons">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Lapsed on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Lapsed on oodatud</title>
-                    <path d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;" alt="Koduloomad on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Koduloomad on oodatud</title>
-                    <path d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Õuekohvik</title>
-                    <path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/>
-                </svg>
-            </div>
-        </div>
-
-        <div class="cafe">
-            <div class="cafe-name">Maitserõõm</div>
-            <div class="cafe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/>
-                </svg>
-                Pootsmani 12&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="cafe-description">
-                <p>Sel aastal on kohviku esientusiastideks kaks last, kes koguvad taskuraha suvel ees ootavateks seiklusteks.</p>
-                <p>Kohvikus ka sel aastal eelmise aasta hitid:<br/>
-                - muffinid toorjuustukreemiga<br/>
-                - kapsapirukas<br/>
-                - rabarberikissell<br/>
-                - juustused tokisaiad, mille igaüks saab endale lõkkel ise valmis küpsetada<br/>
-                - lisaks pakume veel aasiapärast nuudlisalatit ja suvist kinoasalatit kikerhernestega, vahvleid ja marja-purukooki, riisigalette datlikaramelli ja koduse müsliga ning janu saab kustutada värskendava sidrunilimpsi ja taimeteega.</p>
-                <p>Lapsed saavad batuudil hüpata ja poriköögis maitsvaid roogasid valmistada, ronida ja liivakastis mängida.</p>
-                <p>Kohtume juba siin, Maitserõõmus!</p></div>
-            <div class="cafe-icons">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Vegan">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Vegan</title>
-                    <path d="M512 165.4c0 127.9-70.05 235.3-175.3 270.1c-20.04 7.938-41.83 12.46-64.69 12.46c-64.9 0-125.2-36.51-155.7-94.47c-54.13 49.93-68.71 107-68.96 108.1C44.72 472.6 34.87 480 24.02 480c-1.844 0-3.727-.2187-5.602-.6562c-12.89-3.098-20.84-16.08-17.75-28.96c9.598-39.5 90.47-226.4 335.3-226.4C344.8 224 352 216.8 352 208S344.8 192 336 192C228.6 192 151 226.6 96.29 267.6c.1934-10.82 1.242-21.84 3.535-33.05c13.47-65.81 66.04-119 131.4-134.2c28.33-6.562 55.68-6.013 80.93-.0054c56 13.32 118.2-7.412 149.3-61.24c5.664-9.828 20.02-9.516 24.66 .8282C502.7 76.76 512 121.9 512 165.4z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Lapsed on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Lapsed on oodatud</title>
-                    <path d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;" alt="Koduloomad on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Koduloomad on oodatud</title>
-                    <path d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Õuekohvik</title>
-                    <path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/>
-                </svg>
-            </div>
-        </div>
-
-        <div class="cafe">
-            <div class="cafe-name">Naked Fish</div>
-            <div class="cafe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/>
-                </svg>
-                Kapteni 5&nbsp;&nbsp;&nbsp;
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/>
-                </svg>
-                11 kuni 16</div>
-            <div class="cafe-description">
-                <p>Kvissentali II kodukohvikute päeva raames avab end üheks päevaks Restoran Naked Fish.</p>
-                <p>Restoran Naked Fish ootab laua broneeriunguid ette. Kindlustad endale mugava istekoha (max 6 in korraga) pehmel diivanil vaatega Emajõele, kui registreerid oma soovi hiljemalt 30.05.2023: <a href="https://forms.gle/PXTSpG2mZupEzj3o6" target="_blank">https://forms.gle/PXTSpG2mZupEzj3o6</a>.</p>
-                <p>Menüüs on kvaliteetne eestimaine mahlane forellifilee Pähkla kalakasvatusest koos hooajaliste lisanditega. Maitseid aitab tasakaalustada asjakohane jahe jook 😉</p>
-            </div>
-            <div class="cafe-icons">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Lapsed on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Lapsed on oodatud</title>
-                    <path d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Õuekohvik</title>
-                    <path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/>
-                </svg>
-            </div>
-        </div>
-
-        <div class="cafe">
-            <div class="cafe-name">Sōstramekk koogipood</div>
-            <div class="cafe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/>
-                </svg>
-                Kapteni 5&nbsp;&nbsp;&nbsp;
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/>
-                </svg>
-                11 kuni 16</div>
-            <div class="cafe-description">
-                <p>🍰 valik Sõstarmekk kooke<br/>
-                   🍦 pehme jäätis</p>
-                <p>Ainult kaasamüük.</p>
-                <p>FB: <a href="https://www.facebook.com/sostramekk" target="_blank">Sõstramekk</a><br/>
-                   IG: <a href="https://www.instagram.com/sostramekk/" target="_blank">sostramekk</a></p></div>
-            <div class="cafe-icons">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Lapsed on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Lapsed on oodatud</title>
-                    <path d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Õuekohvik</title>
-                    <path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/>
-                </svg>
-            </div>
-        </div>
-
-        <div class="cafe">
-            <div class="cafe-name">Café Amore Mio</div>
-            <div class="cafe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/>
-                </svg>
-                Klaose 5-3 (terrass)&nbsp;&nbsp;&nbsp;
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/>
-                </svg>
-                11 kuni 16</div>
-            <div class="cafe-description">
-                <p>Café Amore Mio pakub laia valikut Itaalia toitu. Meie menüü koosneb erinevatest pastadest, Vahemere salatitest ja snäkkidest, meie ehtsast focacciast ja tiramisust ja paljust muust. Pakume ka taimetoitu. Buon appetito!</p></div>
-            <div class="cafe-icons">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Vegan">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Vegan</title>
-                    <path d="M512 165.4c0 127.9-70.05 235.3-175.3 270.1c-20.04 7.938-41.83 12.46-64.69 12.46c-64.9 0-125.2-36.51-155.7-94.47c-54.13 49.93-68.71 107-68.96 108.1C44.72 472.6 34.87 480 24.02 480c-1.844 0-3.727-.2187-5.602-.6562c-12.89-3.098-20.84-16.08-17.75-28.96c9.598-39.5 90.47-226.4 335.3-226.4C344.8 224 352 216.8 352 208S344.8 192 336 192C228.6 192 151 226.6 96.29 267.6c.1934-10.82 1.242-21.84 3.535-33.05c13.47-65.81 66.04-119 131.4-134.2c28.33-6.562 55.68-6.013 80.93-.0054c56 13.32 118.2-7.412 149.3-61.24c5.664-9.828 20.02-9.516 24.66 .8282C502.7 76.76 512 121.9 512 165.4z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Lapsed on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Lapsed on oodatud</title>
-                    <path d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;" alt="Koduloomad on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Koduloomad on oodatud</title>
-                    <path d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Õuekohvik</title>
-                    <path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/>
-                </svg>
-            </div>
-        </div>
-
-        <div class="cafe">
-            <div class="cafe-name">West Coast Coffee</div>
-            <div class="cafe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/>
-                </svg>
-                Hauskari 8-1&nbsp;&nbsp;&nbsp;
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/>
-                </svg>
-                10 kuni kohvi jätkub (36 tassi)</div>
-            <div class="cafe-description">
-                <p>EST (ENG below)</p>
-                <p>Saabusime eile Eestisse USA-st ja Kanadast ja tõime kaasa parimaid kohviubasid. Denis (Kanadast, ENG/RU) on suur kohvipro, kes on maitsnud parimaid ubasid üle maailma ja oskab teha Specialty Coffee. Meil on väga värsked oad, iga tass tehakse tellimuse ajal, saate ka kohvi kohta küsida ja rohkem õppida. Ubasid on ainult 36 tassile!</p>
-                <p>Menüü</p>
-                <p>Aeropressis valmistatud must kohv - 3 eur/tass. Oma tassiga tulles, hind on 2.75 eur.<br/>
-                    Väga lux oad, seega ärge oodake suhkrut või piima :)</p>
-                <p>🍁 Nemesis Coffee | Vancouver, Briti Columbia, Kanada<br/>
-                    Tootja: Angel Arturo Paz, El Itacayo | Honduras<br/>
-                    Sort: pacas, pestud protsess<br/>
-                    Maitse märkmed: kuivatatud ploom, rooma õun, brownie</p>
-                <p>🌉 Blue Bottle Coffee | San Francisco, Kalifornia, Ameerika Ühendriigid<br/>
-                    Tootja: Ngozi Bavyeyi | Burundi<br/>
-                    Sort: bourbon, loomulik protsess<br/>
-                    Maitse märkmed: ploom, sidrunikoor, karamell</p>
-                <p>ENG</p>
-                <p>We just arrived from the West Coast of US/Canada yesterday and brought some best coffee beans to share! Denis (from Canada, ENG/RU) is a huge coffee person who has travelled the world to try the rarest/best coffee beans around the world. He chose two different bean types/roasteries to share with you and will make the Specialty Coffee to order. Come to learn more about coffee and try it out! We have beans for 36 cups only. This is black specialty coffee, so don't expect milk or sugar. :)</p>
-                <p>Menu</p>
-                <p>Black coffee made in an AeroPress</p>
-                <p>🍁 Nemesis Coffee | Vancouver, British Columbia, Canada<br/>
-                    Producer: Angel Arturo Paz, El Itacayo | Honduras<br/>
-                    Variety: pacas, washed process<br/>
-                    Notes of: prune, rome apple, brownie</p>
-                <p>🌉 Blue Bottle Coffee | San Francisco, California, USA<br/>
-                    Producer: Ngozi Bavyeyi | Burundi<br/>
-                    Variety: bourbon, natural process<br/>
-                    Notes of: plum, lemon zest, caramel</p></div>
-            <div class="cafe-icons">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Vegan">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Vegan</title>
-                    <path d="M512 165.4c0 127.9-70.05 235.3-175.3 270.1c-20.04 7.938-41.83 12.46-64.69 12.46c-64.9 0-125.2-36.51-155.7-94.47c-54.13 49.93-68.71 107-68.96 108.1C44.72 472.6 34.87 480 24.02 480c-1.844 0-3.727-.2187-5.602-.6562c-12.89-3.098-20.84-16.08-17.75-28.96c9.598-39.5 90.47-226.4 335.3-226.4C344.8 224 352 216.8 352 208S344.8 192 336 192C228.6 192 151 226.6 96.29 267.6c.1934-10.82 1.242-21.84 3.535-33.05c13.47-65.81 66.04-119 131.4-134.2c28.33-6.562 55.68-6.013 80.93-.0054c56 13.32 118.2-7.412 149.3-61.24c5.664-9.828 20.02-9.516 24.66 .8282C502.7 76.76 512 121.9 512 165.4z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Lapsed on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Lapsed on oodatud</title>
-                    <path d="M255.1 192H.1398C2.741 117.9 41.34 52.95 98.98 14.1C112.2 5.175 129.8 9.784 138.9 22.92L255.1 192zM384 160C384 124.7 412.7 96 448 96H480C497.7 96 512 110.3 512 128C512 145.7 497.7 160 480 160H448V224C448 249.2 442.2 274.2 430.9 297.5C419.7 320.8 403.2 341.9 382.4 359.8C361.6 377.6 336.9 391.7 309.7 401.4C282.5 411 253.4 416 223.1 416C194.6 416 165.5 411 138.3 401.4C111.1 391.7 86.41 377.6 65.61 359.8C44.81 341.9 28.31 320.8 17.05 297.5C5.794 274.2 0 249.2 0 224H384L384 160zM31.1 464C31.1 437.5 53.49 416 79.1 416C106.5 416 127.1 437.5 127.1 464C127.1 490.5 106.5 512 79.1 512C53.49 512 31.1 490.5 31.1 464zM416 464C416 490.5 394.5 512 368 512C341.5 512 320 490.5 320 464C320 437.5 341.5 416 368 416C394.5 416 416 437.5 416 464z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill:#6ab04c;" alt="Koduloomad on oodatud">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Koduloomad on oodatud</title>
-                    <path d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill:#6ab04c;" alt="Õuekohvik">
-                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <title>Õuekohvik</title>
-                    <path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/>
-                </svg>
-            </div>
-        </div>
-
-    </section>
-
-    <h2 id="map">Kaart</h2>
-    <section id="map-section">
-        
-      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1VmzNOx1jfIM1o0B8O7p1xSSFm2HHBF0&ehbc=2E312F" width="1000" height="600"></iframe>
-
-    </section>
-
-    <h2 id="owner">Pererahvale</h2>
-    <section id="owner-section">
-        <p>&#10022; Valmista ette mingid istumiskohad oma külastajatele (kasvõi pikniku pleed muru peal)</p>
-        <p>&#10023; Kuna külastajad tõenäoliselt maksavad sularahaga, siis palun valmista ette tagastusraha</p>
-        <p>&#10022; Valmista ette suur prügikast, et prügi ei jääks su muru peale</p>
-        <p>&#10023; Palun märgi kohviku kirjelduses kas koduloomad on oodatud sinu kohvikus või mitte</p>
-    </section>
-
-    <h2 id="guest">Külastajale</h2>
-    <section id="guest-section">
-        <p>&#10022; Suhtu pererahva kodusse hoolivalt</p>
-        <p>&#10023; Ära jäta enda prügi</p>
-        <p>&#10022; Võta kaasa väikese nominaaliga sularaha</p>
-        <p>&#10023; Ole keskkonnasäästlik - võta kodust kaasa oma tass</p>
-        <p>&#10022; Kohapeal võivad olla pererahva enda koduloomad ja väikesed lapsed. Palun jälgi kas kohviku kirjelduses on koera pilt või mitte. Kui koera pildi pole, siis palun jäta kodulooma väljaspool kohviku ala.</p>
-    </section>
-
-    <h2 id="pictures">Pildid</h2>
-    <section id="pictures-section">
-        
-        <div class="gg-container">
-            <div class="gg-box">
-                <img src="pictures/1.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/2.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/3.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/4.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/5.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/6.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/7.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/8.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/9.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/10.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/11.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/12.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/13.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/14.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/15.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/16.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/17.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/18.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/19.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/20.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/21.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/22.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/23.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/24.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/25.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/26.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/27.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/28.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/29.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/30.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/31.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/32.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/33.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/34.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/35.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/36.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/37.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/38.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/39.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/40.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/41.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-                <img src="pictures/42.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2023"/>
-            </div>
-        </div>
-
-    </section>
-
-    <h2 id="contacts">Kontaktid</h2>
-    <section id="contacts-section">
-
-        <div class="contact">
-            <img src="img/anna.png" width="200" height="200" loading="lazy" alt="Anna Aljanaki pilt"/>
-            <h3>Anna Aljanaki</h3>
-            <p><a href="https://www.facebook.com/anna.aljanaki.14" title="Facebook konto: Anna Aljanaki">Facebook Messages</a></p>
-            <p><a href="mailto:aljanaki@gmail.com" title="Email: aljanaki@gmail.com">aljanaki@gmail.com</a></p>
-        </div>
-
-        <div class="contact">
-            <img src="img/irina.png" width="200" height="200" loading="lazy" alt="Irina Ivanova pilt"/>
-            <h3>Irina Ivanova</h3>
-            <p><a href="https://www.facebook.com/iiiirina.ivanova/" title="Facebook konto: Irina Ivanova">Facebook Messages</a></p>
-            <p><a href="mailto:irina.ivanova@protonmail.com" title="Email: irina.ivanova@protonmail.com">irina.ivanova@protonmail.com</a></p>
-        </div>
-
-        <div class="contact">
-            <img src="img/nikita.png" width="200" height="200" loading="lazy" alt="Nikita Ivanov pilt"/>
-            <h3>Nikita Ivanov</h3>
-            <p><a href="https://www.facebook.com/gregorianisch" title="Facebook konto: Nikita Ivanov">Facebook Messages</a></p>
-            <p><a href="mailto:gregorianisch@gmail.com" title="Email: gregorianisch@gmail.com">gregorianisch@gmail.com</a></p>
-        </div>
-
-    </section>
-
-  </main>
-
-  <footer>
-      <p>2023</p>
-      <p><a href="https://www.instagram.com/explore/tags/kvissentalikodukohvikud/" title="Instagrami tag #kvissentalikodukohvikud">#kvissentalikodukohvikud</a></p>
-      <p><a href="https://www.instagram.com/explore/tags/kvikoko/" title="Instagrami tag #kvikoko">#kvikoko</a></p>
-  </footer>
-
-  <!-- Grid Gallery -->
-  <script type="text/javascript" src="grid-gallery/js/grid-gallery.min.js"></script>
+    <!-- Grid Gallery -->
+    <script type="text/javascript" src="grid-gallery/js/grid-gallery.min.js"></script>
 
 </body>
+
 </html>
