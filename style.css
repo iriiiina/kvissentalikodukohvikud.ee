@@ -209,6 +209,7 @@ header img {
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.3em;
+    margin-bottom: 2em;
 }
 
 .legend {
