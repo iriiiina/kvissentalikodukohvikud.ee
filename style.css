@@ -362,6 +362,24 @@ header img {
     width: 200px;
 }
 
+/* SPONSOR */
+
+#sponsor-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 1em;
+    gap: 1em;
+    margin-bottom: 3em;
+}
+
+.sponsor {
+    width: 300px;
+    text-align: center;
+}
+
 /* FOOTER */
 
 footer {
