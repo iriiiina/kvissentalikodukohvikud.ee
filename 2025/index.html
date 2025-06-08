@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="et-EE">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kvissentali päevad</title>
+
+  <!-- SEO -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="canonical" href="https://kvissentalikodukohvikud.ee">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#405d27">
+  <meta name="msapplication-TileColor" content="#405d27">
+  <meta name="theme-color" content="#405d27">
+
+  <meta name="description" content="Kvissentali päevade kirjeldus, programm, kaart ja muu oluline info" />
+  <meta property="og:url" content="https://kvissentalikodukohvikud.ee" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kvissentali päevad" />
+  <meta property="og:site_name" content="Kvissentali päevad" />
+  <meta property="og:description" content="Kvissentali päevade kirjeldus, programm, kaart ja muu oluline info" />
+  <meta property="og:image" content="favicon/preview.png" />
+  <meta property="og:image:url" content="https://kvissentalikodukohvikud.ee/favicon/preview.png" />
+  <meta property="og:image:secure_url" content="https://kvissentalikodukohvikud.ee/favicon/preview.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="et-EE" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Grid Gallery -->
+  <link rel="stylesheet" type="text/css" href="grid-gallery/css/grid-gallery.min.css" />
+
+</head>
+
+<body itemscope itemtype="https://schema.org/WebPage">
+
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("menu");
+      var menuButton = document.getElementById("menu-button");
+      if (menu.style.display === "none") {
+        menu.style.display = "flex";
+        menuButton.style.fill = "white";
+      } else {
+        menu.style.display = "none";
+        menuButton.style.fill = "#636e72";
+      }
+    }
+
+    function closeMenu() {
+      document.getElementById("menu").style.display = "none";
+      document.getElementById("menu-button").style.fill = "#636e72";
+    }
+
+  </script>
+
+  <nav>
+
+    <svg id="menu-button" onClick="toggleMenu()" aria-hidden="true" focusable="false" role="img"
+      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+      <title>Menu</title>
+      <path
+        d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+      </path>
+    </svg>
+
+    <div id="menu-768">
+      <p><a href="../index.html" title="Avaleht" hreflang="et">&larr;&nbsp; Tagasi</a></p>
+      <p class="menu-divider">&#10045;</p>
+      <p><a href="#program" title="Programm" hreflang="et">Programm</a></p>
+      <p class="menu-divider">&#10045;</p>
+      <p><a href="#map" title="Kaart" hreflang="et">Kaart</a></p>
+      <p class="menu-divider">&#10045;</p>
+      <p><a href="#owner" title="Pererahvale" hreflang="et">Pererahvale</a></p>
+      <p class="menu-divider">&#10045;</p>
+      <p><a href="#guest" title="Külastajale" hreflang="et">Külastajale</a></p>
+      <p class="menu-divider">&#10045;</p>
+      <p><a href="#transport" title="Kohalejõudmine" hreflang="et">Kohalejõudmine</a></p>
+      <p class="menu-divider">&#10045;</p>
+      <p><a href="#pictures" title="Pildid" hreflang="et">Pildid</a></p>
+      <p class="menu-divider">&#10045;</p>
+      <p><a href="#contacts" title="Kontaktid" hreflang="et">Kontaktid</a></p>
+    </div>
+
+    <div id="menu">
+      <p><a onClick="closeMenu()" href="../index.html">&larr;&nbsp;Tagasi</a></p>
+      <p><a onclick="closeMenu()" href="#program" title="Programm" hreflang="et">Programm</a></p>
+      <p><a onclick="closeMenu()" href="#map" title="Kaart" hreflang="et">Kaart</a></p>
+      <p><a onClick="closeMenu()" href="#owner" title="Pererahvale" hreflang="et">Pererahvale</a></p>
+      <p><a onClick="closeMenu()" href="#guest" title="Külastajale" hreflang="et">Külastajale</a></p>
+      <p><a onClick="closeMenu()" href="#transport" title="Kohalejõudmine" hreflang="et">Kohalejõudmine</a></p>
+      <p><a onclick="closeMenu()" href="#pictures" title="Pildid" hreflang="et">Pildid</a></p>
+      <p><a onClick="closeMenu()" href="#contacts" title="Kontaktid" hreflang="et">Kontaktid</a></p>
+    </div>
+
+  </nav>
+
+  <header>
+    <img src="img/trees-color.png" width="1198" height="200" loading="lazy" alt="Joonistatud elupuud"
+      itemprop="primaryImageOfPage" />
+    <h1>IV Kvissentali päev<br/>
+    31. mai 2025</h1>
+  </header>
+
+  <main>
+
+    <section id="facebook-event" class="container">
+      <p>Facebooki sündmus: <a href="https://fb.me/e/5SuXs1c6M" title="Facebooki sündmus IV Kvissentali päev"
+          hreflang="et" target="_blank">https://fb.me/e/5SuXs1c6M</a></p>
+    </section>
+
+    <section id="share">
+      <p>Tehke pilte ja jagage Instagramis!</p>
+      <p><a href="https://www.instagram.com/explore/tags/kvissentalipäevad" title="Instagrami tag #kvissentalipäevad"
+          hreflang="et" target="_blank">#kvissentalipäevad</a></p>
+      <p><a href="https://www.instagram.com/explore/tags/kvissentalikodukohvikud/"
+          title="Instagrami tag #kvissentalikodukohvikud" hreflang="et" target="_blank">#kvissentalikodukohvikud</a></p>
+      <p><a href="https://www.instagram.com/explore/tags/kvikoko/" title="Instagrami tag #kvikoko"
+          hreflang="et" target="_blank">#kvikoko</a></p>
+    </section>
+
+    <h2 id="program">Programm</h2>
+    <section id="program-section" class="container">
+
+      <div id="program-legend">
+        <div class="legend">
+          <img src="img/baby.svg" alt="Lapsed on oodatud" />
+          <p>lapsed on oodatud</p>
+        </div>
+        <div class="legend">
+          <img src="img/dog.svg" alt="Koduloomad on oodatud" />
+          <p>koduloomad on oodatud</p>
+        </div>
+        <div class="legend">
+          <img src="img/sun.svg" alt="Õueüritus" />
+          <p>õueüritus</p>
+        </div>
+        <div class="legend">
+          <img src="img/avocado.svg" alt="Vegan võimalus" />
+          <p>vegan võimalus</p>
+        </div>
+        <div class="legend">
+          <img src="img/card.svg" alt="Kaardimakse võimalus" />
+          <p>kaardimakse võimalus</p>
+        </div>
+      </div>
+
+      <div class="events">
+
+        <div class="cafe">
+          <div class="cafe-name">ZONTA kohvik</div>
+          <div class="cafe-info">
+            <img class="svg-in-text" src="img/pointer.svg" alt="Asukoha ikoon" />&nbsp;Tüürimehe 3
+            <img class="svg-in-text" src="img/clock.svg" alt="Kella ikoon" />&nbsp;11:00 kuni 16:00
+          </div>
+          <div class="cafe-description">
+            <p>ZONTA Tartu klubi naiste ühisel jõul saab maitsta nii soolast kui magusat. Taas on menüüs juba eelmisel aastal menukas olnud nõgesesupp, lisaks pirukaid, kooke ja ehk ka mõni üllatus. Kohviku tulu kasutatakse Zonta Tartu klubi projektile «Julguse pesa», mis aitab naistel ja tüdrukutel  oma elus tasakaalu saavutada.</p>
+          </div>
+          <div class="cafe-icons">
+            <img src="img/baby.svg" alt="Lapsed on oodatud" />
+            <img src="img/avocado.svg" alt="Vegan võimalus" />
+            <img src="img/card.svg" alt="Kaardimakse võimalus" />
+            <img src="img/sun.svg" alt="Õueüritus" />
+          </div>
+        </div>
+
+        <div class="cafe">
+          <div class="cafe-name">Hennu Lillepood</div>
+          <div class="cafe-info">
+            <img class="svg-in-text" src="img/pointer.svg" alt="Asukoha ikoon" />&nbsp;Mänguväljak, Klaose 10
+            <img class="svg-in-text" src="img/clock.svg" alt="Kella ikoon" />&nbsp;11:00 kuni 16:00
+          </div>
+          <div class="cafe-description">
+            <p>Pakume pisikesi erinevaid suvelilli, väikseid koogikesi ja lõbusaid vahvleid.</p>
+          </div>
+          <div class="cafe-icons">
+            <img src="img/baby.svg" alt="Lapsed on oodatud" />
+            <img src="img/dog.svg" alt="Koduloomad on oodatud" />
+            <img src="img/sun.svg" alt="Õueüritus" />
+          </div>
+        </div>
+
+        <div class="cafe">
+          <div class="cafe-name">MÄG kohvik</div>
+          <div class="cafe-info">
+            <img class="svg-in-text" src="img/pointer.svg" alt="Asukoha ikoon" />&nbsp;Riistapuu 19
+            <img class="svg-in-text" src="img/clock.svg" alt="Kella ikoon" />&nbsp;11:00 kuni 16:00
+          </div>
+          <div class="cafe-description">
+            <p>Meie pere lemmikud ja mõned eelmise aasta lemmikud on ka tagasi.</p>
+            <p><a href="https://www.youtube.com/shorts/fiVfS3NJYfY" title="Kodukohvik Mäg" hreflang="et" target="_blank">https://www.youtube.com/shorts/fiVfS3NJYfY</a></p>
+          </div>
+          <div class="cafe-icons">
+            <img src="img/baby.svg" alt="Lapsed on oodatud" />
+            <img src="img/dog.svg" alt="Koduloomad on oodatud" />
+            <img src="img/sun.svg" alt="Õueüritus" />
+          </div>
+        </div>
+
+        <div class="cafe">
+          <div class="cafe-name">PANEA kohvik</div>
+          <div class="cafe-info">
+            <img class="svg-in-text" src="img/pointer.svg" alt="Asukoha ikoon" />&nbsp;Meruski 12, maja ees
+            <img class="svg-in-text" src="img/clock.svg" alt="Kella ikoon" />&nbsp;11:00 kuni 16:00
+          </div>
+          <div class="cafe-description">
+            <p>Kutsume Sind kodukohvikusse PANEA! Menüüs on krõbe pitsa, focaccia, tiramisu, brownie, oreo muffinid, külmad ja kuumad joogid ning palju muud. Kell 11-12 saab kuulata kandlemängu. Õdus olemine ja värskelt küpsetatud saiakesed otse Kvissentali südames. Astu läbi – ainult 31. mail! Kohvikut korraldavad kolm häid maitseid hindavat gümnaasiumiõpilast.</p>
+          </div>
+          <div class="cafe-icons">
+            <img src="img/baby.svg" alt="Lapsed on oodatud" />
+            <img src="img/sun.svg" alt="Õueüritus" />
+          </div>
+        </div>
+
+        <div class="cafe">
+          <div class="cafe-name">Kvissentali Elu kohvik</div>
+          <div class="cafe-info">
+            <img class="svg-in-text" src="img/pointer.svg" alt="Asukoha ikoon" />&nbsp;Klaose 14-5
+            <img class="svg-in-text" src="img/clock.svg" alt="Kella ikoon" />&nbsp;18:00 kuni 22:00
+          </div>
+          <div class="cafe-description">
+            <p>💚 Meie kohvikus saad infot Kvissentali Elu tegevustest ja plaanidest<br/>
+               🚶‍♀️‍➡️ Läbida sensoorset rada<br/>
+               🎵 Mängida juur- ja puuvilju nagu klaverit kasutades <a href="https://shop.playtronica.com/" title="Playtronica Page" hreflang="en" target="_blank">Playtronica</a> vidinaid<br/>
+               🍓 Muidugi pakume ka süüa: porgandikeeks, hernesupp, kookose-banaani ilma suhkruta küpsised, erimaitselised pastillid, vegan hummuse võikud<br/>
+               🔥 Suitsuvaba lõke marshmallow ja leivaga<br/>
+               🎵 Kell 20:00 esineb Kvissentali ansambel</p>
+            <p>Kõik tulu tuleb <a href="https://kvissentalielu.ee/" title="Kvissentali Elu koduleht" hreflang="et" target="_blank">Kvissentali Elu MTÜ</a> toetamiseks.</p>
+          </div>
+          <div class="cafe-icons">
+            <img src="img/baby.svg" alt="Lapsed on oodatud" />
+            <img src="img/dog.svg" alt="Koduloomad on oodatud" />
+            <img src="img/avocado.svg" alt="Vegan võimalus" />
+            <img src="img/sun.svg" alt="Õueüritus" />
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="event-name">Hommikune silmad lahti käik Kvissentalis</div>
+          <div class="event-info">
+            <img class="svg-in-text" src="img/pointer.svg" alt="Asukoha ikoon" />&nbsp;Mänguväljak, Klaose 10
+            <img class="svg-in-text" src="img/clock.svg" alt="Kella ikoon" />&nbsp;10:00 kuni 11:00
+          </div>
+          <div class="event-description">
+            <p>Kutsume IV Kvissentali päeva raames hommikusele loodusretkele. Õpime tähele panema koduümbruse loodust, otsime loomade tegevusjälgi ja märke nende suhtlemisest. Püüame vaadata Kvissentali teiste liikide silmade läbi ja räägime nende omailmadest. Mõistatame elava looduse lugusid ja nende seoseid inimtegevusega. Juhendavad Tartu Ülikooli biosemiootikud (Kalevi Kull, Nelly Mäekivi, Tiit Remm, Timo Maran, jt.) Üritus on osa Tartu Ülejõe aiaseminaride sarjast ja <a href="https://www.ecosem.ut.ee/coevolvers/" title="Projekt Coevolvers" hreflang="et" target="_blank">EU Horisont projekti Coevolvers</a> (101084220) tegevusest. Teeme üritusel ka fotosid, mida kasutame projekti sündmuste kajastamisel ning aruannetes.</p>
+            <p>Facebook sündmus: <a href="https://fb.me/e/2Nns6RiBO" title="Facebook sündmus: Hommikune silmad lahti käik Kvissentalis" hreflang="et" target="_blank">https://fb.me/e/2Nns6RiBO</a></p>
+              <p style="text-align: center;">🐛 🐜 🦋</p>
+          </div>
+          <div class="event-icons">
+            <img src="img/baby.svg" alt="Lapsed on oodatud" />
+            <img src="img/sun.svg" alt="Õueüritus" />
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="event-name">Joonistame Kvissentali loomi</div>
+          <div class="event-info">
+            <img class="svg-in-text" src="img/pointer.svg" alt="Asukoha ikoon" />&nbsp;Mänguväljak, Klaose 10
+            <img class="svg-in-text" src="img/clock.svg" alt="Kella ikoon" />&nbsp;11:00 kuni 16:00
+          </div>
+          <div class="event-description">
+            <p>Kes elab Kvissentalis? Lisaks inimestele hiilivad tänavatel, kaasikus, jõe ääres, tühermaal ja luhal ka hirved, rebased, hakid, varesed, hiired, kassid, kured, koprad... Kuulsin, et kord käis majade vahel ringi ilves. Ehk oled aias märganud mutti? Siilikest?</p>
+              <p>🐾 Kvissentali päevadel, 31. mail kell 11-16, ootan teid majakesse Klaose mänguväljaku serval (Klaose 10). Joonistame loomi, puhume loomajuttu ja loome vahva kunstinäituse Kvissentali mitte-inimliiki kogukonnast.<br/>
+              🐾 Kohapeal on olemas paber ja joonistusvahendid. Olen joonistamisel abiks ja kuulan uudishimuga teie loomalugusid. Kes näppe värviseks teha ei soovi, saab märkida suurele Kvissentali kaardile, kus, millal ja mis imeloomi naabruskonnas oled märganud.<br/>
+              🐾 Tehtud tööd vormistame koostöös <a href="https://kvissentalielu.ee/" title="Kvissentali Elu MTÜ veebileht" hreflang="et" target="_blank">Kvissentali Elu MTÜ-ga</a> eluvärviküllaseks linaaosakaardiks, mis tulevikus väikesi ja suuri loomasõpru Kvissentali eluga tuttavaks teeb.<br/>
+              🐾 Mina olen <a href="https://www.instagram.com/kunstiverk" title="Instagram profiil @Hildegard" hreflang="et" target="_blank">Hildegard</a>, looduse-, folkloori- ja kunstisõber, ning mind huvitab uurida inimeste ja loomade kooselu linnas.</p>
+              <p style="text-align: center;">🦔 🦔 🦔</p>
+            <p>Facebook sündmus: <a href="https://fb.me/e/1LSmqly0U3" title="Facebook sündmus: Joonistame Kvissentali loomi" hreflang="et" target="_blank">https://fb.me/e/1LSmqly0U3</a></p>
+          </div>
+          <div class="event-icons">
+            <img src="img/baby.svg" alt="Lapsed on oodatud" />
+            <img src="img/dog.svg" alt="Koduloomad on oodatud" />
+            <img src="img/sun.svg" alt="Õueüritus" />
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="event-name">Jazz-ansambel T85</div>
+          <div class="event-info">
+            <img class="svg-in-text" src="img/pointer.svg" alt="Asukoha ikoon" />&nbsp;Riistapuu 19
+            <img class="svg-in-text" src="img/clock.svg" alt="Kella ikoon" />&nbsp;11:30 ja 12:30
+          </div>
+          <div class="event-description">
+            <p>Kvissentali päeval, 31. mail on võimalik tulla kuulama ansamblit «T85». Kui sulle meeldib jazz või bluus, siis astu Riistapuu 19 kodukohvikusse sisse juba kell 11:30, teine sett 12:30. Harrastajate ansambel esineb paljudele tuttavas koosseisus: Kristjan Kõrgesaar saksofonil, Jaan Kõrgesaar klaveril, Aleksander Tõnnisson bassil ja Rein Lemberpuu trummidel. Lisaks on bändiga liitunud imeline lauljanna Karita Käesel. Jazzi ja bluesi vahele mahub ka mõni eelmise sajandi poplugu. Heikki Mägi kokkamise, elava muusika ja kevadise koduaia sümbioosi saab kogeda vaid korra aastas! Tule kindlasti!</p>
+            <p style="text-align: center;">🎷 🎸 🎹 🥁 🎤</p>
+          </div>
+          <div class="event-icons">
+            <img src="img/baby.svg" alt="Lapsed on oodatud" />
+            <img src="img/dog.svg" alt="Koduloomad on oodatud" />
+            <img src="img/sun.svg" alt="Õueüritus" />
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="event-name">Õlimaalide müük</div>
+          <div class="event-info">
+            <img class="svg-in-text" src="img/pointer.svg" alt="Asukoha ikoon" />&nbsp;Mänguväljak, Klaose 10
+            <img class="svg-in-text" src="img/clock.svg" alt="Kella ikoon" />&nbsp;12:00 kuni 13:00
+          </div>
+          <div class="event-description">
+            <p>Müügis ema joonistatud erinevas stiilis õlimaalid.</p>
+            <p style="text-align: center;">🎨 🖼️ 🖌️</p>
+          </div>
+          <div class="event-icons">
+            <img src="img/baby.svg" alt="Lapsed on oodatud" />
+            <img src="img/sun.svg" alt="Õueüritus" />
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="event-name">Paul Neitsovi kontsert</div>
+          <div class="event-info">
+            <img class="svg-in-text" src="img/pointer.svg" alt="Asukoha ikoon" />&nbsp;Tüürimehe 3 aias
+            <img class="svg-in-text" src="img/clock.svg" alt="Kella ikoon" />&nbsp;13:00 ja 14:00
+          </div>
+          <div class="event-description">
+            <p>ZONTA kohvikus esineb kitarrivõlur Paul Neitsov!</p>
+          </div>
+          <div class="event-icons">
+            <img src="img/baby.svg" alt="Lapsed on oodatud" />
+            <img src="img/avocado.svg" alt="Vegan võimalus" />
+            <img src="img/card.svg" alt="Kaardimakse võimalus" />
+            <img src="img/sun.svg" alt="Õueüritus" />
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="event-name">Enn Pehk räägib Kvissentalist</div>
+          <div class="event-info">
+            <img class="svg-in-text" src="img/pointer.svg" alt="Asukoha ikoon" />&nbsp;Madruse 18, jõe kaldal
+            <img class="svg-in-text" src="img/clock.svg" alt="Kella ikoon" />&nbsp;16:00 kuni 17:00
+          </div>
+          <div class="event-description">
+            <p>Enn Pehk on Kvissentali pikaajaline elanik ja linnaosa kõige vanema hoone omanik 🏠</p>
+            <p>Ta räägib, kuidas tänapäevane Kvissentali on kujunenud ja milline on tema hoonete ajalugu. Lisaks tutvustab ta oma triik- ja pressrauade kollektsiooni, mis oli <a href="https://www.erm.ee/et/news/osalussaalis-eksponeeritakse-200-triik-ja-pressrauda" title="Osalussaalis eksponeeritakse 200 triik- ja pressrauda" hreflang="et" target="_blank">eksponeeritud ERM-is</a>.</p>
+            <p>Koguneme jõe kaldal Madruse 18 juures – täpsem info, kuidas sinna jõuda, tuleb hiljem. Teie Kvissentali lood on samuti teretulnud – teeme mõnusa vestluse piirkonna ajaloost!</p>
+            <p>Facebook sündmus: <a href="https://fb.me/e/5wgVFtOg1" title="Enn Pehk räägib Kvissentalist" hreflang="et" target="_blank">https://fb.me/e/5wgVFtOg1</a></p>
+          </div>
+          <div class="event-icons">
+            <img src="img/baby.svg" alt="Lapsed on oodatud" />
+            <img src="img/sun.svg" alt="Õueüritus" />
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="event-name">Jalgratastel ühissõit Kvissentalis</div>
+          <div class="event-info">
+            <img class="svg-in-text" src="img/pointer.svg" alt="Asukoha ikoon" />&nbsp;Raekoja platsil ja Ujula koertepark
+            <img class="svg-in-text" src="img/clock.svg" alt="Kella ikoon" />&nbsp;19:00 kuni 20:00
+          </div>
+          <div class="event-description">
+            <p>Kvissentali päeva raames korraldame ühissõidu <a href="https://www.facebook.com/TartuRattaliiklejateSelts" title="Tartu Rattaliiklejate Selts" hreflang="et" target="_blank">Tartu Rattaliiklejate Seltsiga</a>!</p>
+            <p style="text-align: center;">🚴🏻🚴🏻‍♀️🚴🏻‍♂️🚴🏻🚴🏻‍♀️🚴🏻🚴🏻‍♀️🚴🏻‍♂️🚴🏻🚴🏻‍♀️🚴🏻🚴🏻‍♀️</p>
+            <ul>
+              <li>Ühissõit kestab umbes ühe tunni ja toimub Kvissentali linnaosas</li>
+              <li>Tule oma jalgrataga või kasuta Tartu linna rendiratast</li>
+              <li>Väiksed lapsed on oodatud vanemate ratastel või peaksid olema võimelised ise umbes 10 km sõitma</li>
+              <li>Üritus on tasuta</li>
+              <li>Kell 19.00 alustame Raekoja platsil roosa akna juures</li>
+              <li>Umbes kell 19.15 saab sõiduga liituda Emajõe rannast edasi Ujula tänava koertepargi juurest</li>
+              <li>Pisut enne kella 20 lõpetame ühissõidu Kvissentali Elu kohviku juures, mis on avatud kella 22-ni</li>
+              <li>Registreeri ennast FB sündmuses: <a href="https://fb.me/e/37sST60Jo" title="Jalgratastel ühissõit Kvissentalis" hreflang="et" target="_blank">https://fb.me/e/37sST60Jo</a></li>
+            </ul>
+            <p>Naudime koos mõnusat rattasõitu! 🌲🌲🌲</p>
+          </div>
+          <div class="event-icons">
+            <img src="img/baby.svg" alt="Lapsed on oodatud" />
+            <img src="img/sun.svg" alt="Õueüritus" />
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="event-name">Kvissentali ansambel</div>
+          <div class="event-info">
+            <img class="svg-in-text" src="img/pointer.svg" alt="Asukoha ikoon" />&nbsp;Klaose 14-5
+            <img class="svg-in-text" src="img/clock.svg" alt="Kella ikoon" />&nbsp;20:00
+          </div>
+          <div class="event-description">
+            <p>Kvissentali vokaalansambel esineb taas! Kavas nii hästi tuntud jazzi lood, kui ka omalooming ja improvisatsioon.</p>
+          </div>
+          <div class="event-icons">
+            <img src="img/baby.svg" alt="Lapsed on oodatud" />
+            <img src="img/dog.svg" alt="Koduloomad on oodatud" />
+            <img src="img/sun.svg" alt="Õueüritus" />
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="event-name">Tänavaraamatukogu</div>
+          <div class="event-info">
+            <img class="svg-in-text" src="img/pointer.svg" alt="Asukoha ikoon" />&nbsp;Klaose-Riistapuu ristmik
+            <img class="svg-in-text" src="img/clock.svg" alt="Kella ikoon" />&nbsp;11:00 kuni 16:00
+          </div>
+          <div class="event-description">
+            <p>Kvissentali päeval leiad tänavaraamatukogu kastist mõned vahvad meened. Jälgi uuendusi Instagrami
+              kontol:</p>
+            <p style="text-align: center;"><a href="https://www.instagram.com/kvissentali_tanavaraamatukogu"
+                title="Kvissentali tänavaraamatukogu Instagrami konto" hreflang="et" target="_blank">@kvissentali_tanavaraamatukogu</a>
+            </p>
+          </div>
+          <div class="event-icons">
+            <img src="img/baby.svg" alt="Lapsed on oodatud" />
+            <img src="img/dog.svg" alt="Koduloomad on oodatud" />
+            <img src="img/sun.svg" alt="Õueüritus" />
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <h2 id="map">Kaart</h2>
+    <section id="map-section">
+
+      <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1-Xuzfeo9EEGFN0lAJb25okfFZz7LkDA&ehbc=2E312F" width="640"
+        height="480"></iframe>
+
+    </section>
+
+    <h2 id="owner">Pererahvale</h2>
+    <section class="section container">
+      <p>&#10022; Valmista ette mingid istumiskohad oma külastajatele (kasvõi pikniku pleed muru peal).</p>
+      <p>&#10023; Kuna külastajad tõenäoliselt maksavad sularahas, siis palun valmista ette tagastusraha.</p>
+      <p>&#10022; Paigalda nähtavale piisavalt suur prügikast, et prügi ei jääks su muru peale.</p>
+      <p>&#10023; Kindlasti märgi kohviku kirjelduses ära, kas koduloomad on oodatud sinu kohvikus või mitte.</p>
+      <p>&#10022; Ole keskkonnasäästlik - kasuta korduvkasutatavaid nõusid või tee soodustus oma tassiga tulijatele. Loe
+        läbi Tartu linna <a
+          href="https://www.tartu.ee/sites/default/files/uploads/Kultuur%20ja%20vaba%20aeg/Kultuur/KESKKONNAHOIDLIKU%20TEGEVUSE%20P%C3%95HIM%C3%95TTED%20JA%20SOOVITUSED%20ASUTUSTELE%20JA%20ORGANISATSIOONIDELE.pdf"
+          title="Keskkonnahoidliku tegevuse põhimõtted ja soovitused asutustele ja organisatsioonidele"
+          hreflang="et">keskkonnahoidliku tegevuse põhimõtted ja soovitused</a>. Konkreetsed soovitused teenuste
+        pakkujate kohta Tartu linnas (pandipakendid, nõuderent, korduvkasutatavad kaunistused jne) on leitavad
+        presentatsioonist <a
+          href="https://media.voog.com/0000/0041/9889/files/Tartu%202024%20konkreetsed%20soovitused%20juhendi%20juurde%20NOV%202022.pptx.pdf"
+          title="Konkreetsed soovitused" hreflang="et">Konkreetsed soovitused</a>.</p>
+    </section>
+
+    <h2 id="guest">Külastajale</h2>
+    <section class="section container">
+      <p>&#10022; Suhtu pererahva kodusse hoolivalt.</p>
+      <p>&#10023; Ära jäta enda prügi.</p>
+      <p>&#10022; Võta kaasa väikese nominaaliga sularaha.</p>
+      <p>&#10023; Ole keskkonnasäästlik - võta kodust kaasa oma tass ja taldrik lusikaga.</p>
+      <p>&#10022; Kohapeal võivad olla pererahva enda koduloomad ja väikesed lapsed. Koduloomaga tulles palun uuri, kas
+        kohviku
+        kirjelduses on olemas koera pilt või mitte, - ja kui pilt on puudu, siis palun jäta koduloom väljaspool kohviku
+        ala.</p>
+    </section>
+
+    <h2 id="transport">Kohalejõudmine</h2>
+    <section class="section container">
+      <p>🚲 Kvissentalis on olemas <a href="https://ratas.tartu.ee/" title="Tartu linna rattaringlus"
+          hreflang="et">Tartu linna rattaringluse</a> dokk nimetusega «Kvissentali», asukohaga Madruse ja Lootsi
+        ristmikul. Kui tuled oma rattaga, siis rattaparkla on Klaose mänguväljaku juures (Klaose 10).</p>
+      <p>🛴 Kvissentali teel ja Meruski tänaval on võimalik parkida <a href="https://bolt.eu/et-ee/cities/tartu/"
+          title="Bolt Tartus" hreflang="et">Bolti tõukeratast</a>.</p>
+      <p>🚌 Puhkepäeviti peatub buss nr 8 peatustes:
+      <ul>
+        <li><a href="https://web.peatus.ee/pysakit/estonia%3A25030" title="Kvissentali bussipeatus"
+            hreflang="et">Kvissentali</a> (Madruse tänaval)</li>
+        <li><a href="https://web.peatus.ee/pysakit/estonia%3A149423" title="Klaose bussipeatus" hreflang="et">Klaose</a>
+          (Kvissentali teel)</li>
+        <li><a href="https://web.peatus.ee/pysakit/estonia%3A20025" title="Kvissentali tee bussipeatus"
+            hreflang="et">Kvissentali tee</a> (Aruküla teel)</li>
+      </ul>
+      </p>
+      <p>🚗 Kui oled otsustanud tulla autoga, siis palun pargi tänava äärde. Parklad majade juures on
+        elanike autodele. <a href="https://citybee.ee/ee/" title="City Bee">CityBee</a>
+        autot on võimalik parkida Klaose ja Riistapuu tänaval. Lähim <a href="https://bolt.eu/et-ee/cities/tartu/"
+          title="Bolt Tartus" hreflang="et">Bolt
+          Drive</a> parkimisvõimalus asub Põllu tänaval.</p>
+    </section>
+
+    <h2 id="pictures">Pildid</h2>
+    <section id="pictures-section">
+
+      <div class="gg-container">
+        <div class="gg-box">
+          <img src="pictures/1.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/2.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/3.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/4.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/5.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/6.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/7.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/8.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/9.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/10.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/11.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/12.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/13.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/14.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/15.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/16.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/17.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/18.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/19.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/20.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/21.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/22.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/23.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/24.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/25.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/26.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/27.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/28.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/29.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/30.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/31.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/32.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/33.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/34.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/35.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/36.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/37.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/38.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/39.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/40.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/41.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/42.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/43.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/44.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/45.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/46.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/47.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+          <img src="pictures/48.jpg" loading="lazy" alt="Kvissentali kodukohvikud 2025" />
+        </div>
+      </div>
+
+    </section>
+
+    <h2 id="contacts">Kontaktid</h2>
+    <section id="contacts-section" class="container">
+
+      <div class="contact" itemscope itemtype="https://schema.org/Person">
+        <img src="img/anna.png" width="200" height="200" loading="lazy" alt="Anna Aljanaki pilt" itemprop="image" />
+        <h3 itemprop="name">Anna Aljanaki</h3>
+        <p itemprop="sameAs"><a href="https://www.facebook.com/anna.aljanaki.14" title="Facebooki konto: Anna Aljanaki"
+            hreflang="en">Facebooki sõnum</a></p>
+        <p itemprop="email"><a href="mailto:aljanaki@gmail.com" title="Email: aljanaki@gmail.com">aljanaki@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="contact" itemscope itemtype="https://schema.org/Person">
+        <img src="img/irina.png" width="200" height="200" loading="lazy" alt="Irina Ivanova pilt" itemprop="image" />
+        <h3 itemprop="name">Irina Ivanova</h3>
+        <p itemprop="sameAs"><a href="https://www.facebook.com/iiiirina.ivanova/" title="Facebooki konto: Irina Ivanova"
+            hreflang="en">Facebooki sõnum</a></p>
+        <p itemprop="email"><a href="mailto:irina.ivanova@protonmail.com"
+            title="Email: irina.ivanova@protonmail.com">irina.ivanova@protonmail.com</a></p>
+      </div>
+
+      <div class="contact" itemscope itemtype="https://schema.org/Person">
+        <img src="img/nikita.png" width="200" height="200" loading="lazy" alt="Nikita Ivanov pilt" itemprop="image" />
+        <h3 itemprop="name">Nikita Ivanov</h3>
+        <p itemprop="sameAs"><a href="https://www.facebook.com/gregorianisch" title="Facebooki konto: Nikita Ivanov"
+            hreflang="en">Facebooki sõnum</a></p>
+        <p itemprop="email"><a href="mailto:gregorianisch@gmail.com"
+            title="Email: gregorianisch@gmail.com">gregorianisch@gmail.com</a></p>
+      </div>
+
+    </section>
+
+    <h2 id="sponsor">Toetajad</h2>
+    <section id="sponsor-section" class="container">
+
+      <div class="sponsor" itemscope itemtype="https://schema.org/OnlineBusiness">
+        <a href="https://tartu.ee" title="Tartu linn" hreflang="et" itemprop="url">
+          <img src="img/tartu.png" width="200" loading="lazy" alt="Tartu linn" itemprop="image" />
+        </a>
+      </div>
+
+      <div class="sponsor" itemscope itemtype="https://schema.org/OnlineBusiness">
+        <a href="https://vimo.ee" title="Vimo" hreflang="en" itemprop="url">
+          <img src="img/vimo.png" width="120" loading="lazy" alt="Vimo" itemprop="image" />
+        </a>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>2025</p>
+    <p><a href="https://www.instagram.com/explore/tags/kvissentalipäevad" title="Instagrami tag #kvissentalipäevad"
+        hreflang="et">#kvissentalipäevad</a></p>
+    <p><a href="https://www.instagram.com/explore/tags/kvissentalikodukohvikud/"
+        title="Instagrami tag #kvissentalikodukohvikud" hreflang="et">#kvissentalikodukohvikud</a></p>
+    <p><a href="https://www.instagram.com/explore/tags/kvikoko/" title="Instagrami tag #kvikoko"
+        hreflang="et">#kvikoko</a></p>
+    <p><br /></p>
+    <p itemscope itemtype="https://schema.org/OnlineBusiness">Made by <a href="https://vimo.ee/" title="Vimo OÜ"
+        hreflang="en" itemprop="url"><span itemprop="name">Vimo</span></a></p>
+  </footer>
+
+  <!-- Grid Gallery -->
+  <script type="text/javascript" src="grid-gallery/js/grid-gallery.min.js"></script>
+
+</body>
+
+</html>
