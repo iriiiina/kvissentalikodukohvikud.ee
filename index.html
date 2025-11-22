@@ -77,6 +77,10 @@
     <div id="menu-768">
       <p><a href="#" title="Avaleht" hreflang="et">Avaleht</a></p>
       <p class="menu-divider">&#10045;</p>
+      <p><a href="#program" title="Programm" hreflang="et">Programm</a></p>
+      <p class="menu-divider">&#10045;</p>
+      <p><a href="#map" title="Kaart" hreflang="et">Kaart</a></p>
+      <p class="menu-divider">&#10045;</p>
       <p><a href="#archive" title="Arhiiv" hreflang="et">Arhiiv</a></p>
       <p class="menu-divider">&#10045;</p>
       <p><a href="#owner" title="Pererahvale" hreflang="et">Pererahvale</a></p>
@@ -90,6 +94,8 @@
 
     <div id="menu">
       <p><a onClick="closeMenu()" href="#" title="Avaleht" hreflang="et">Avaleht</a></p>
+      <p><a onclick="closeMenu()" href="#program" title="Programm" hreflang="et">Programm</a></p>
+      <p><a onclick="closeMenu()" href="#map" title="Kaart" hreflang="et">Kaart</a></p>
       <p><a onclick="closeMenu()" href="#archive" title="Arhiiv" hreflang="et">Arhiiv</a></p>
       <p><a onClick="closeMenu()" href="#owner" title="Pererahvale" hreflang="et">Pererahvale</a></p>
       <p><a onClick="closeMenu()" href="#guest" title="Külastajale" hreflang="et">Külastajale</a></p>
@@ -102,14 +108,16 @@
   <header>
     <img src="img/trees-color.png" width="1198" height="200" loading="lazy" alt="Joonistatud elupuud"
       itemprop="primaryImageOfPage" />
-    <h1>Kvissentali päev</h1>
+    <h1>V Kvissentali päev<br/>
+    30. mai 2026</h1>
+    <p>Vaata, kuidas möödusid eelmised Kvissentali kodukohvikute päevad: <a href="#archive">Arhiiv</a></p>
   </header>
 
   <main>
 
-    <section id="description" class="container" itemprop="description">
-      <p>31. mail 2025 toimus Kvissentali päev. Vaata <a href="#archive">Arhiivis</a> kuidas see välja nägi.</p>
-      <p>Loodame, et see tuleb ka järgmisel kevadel. Täpne kuupäev selgub hiljem.</p>
+    <section id="facebook-event" class="container">
+      <p>Facebooki sündmus: <a href="https://fb.me/e/chX5LK6J5" title="Facebooki sündmus V Kvissentali päev"
+          hreflang="et" target="_blank">https://fb.me/e/chX5LK6J5</a></p>
     </section>
 
     <section id="share">
@@ -120,6 +128,13 @@
           title="Instagrami tag #kvissentalikodukohvikud" hreflang="et" target="_blank">#kvissentalikodukohvikud</a></p>
       <p><a href="https://www.instagram.com/explore/tags/kvikoko/" title="Instagrami tag #kvikoko"
           hreflang="et" target="_blank">#kvikoko</a></p>
+    </section>
+
+    <h2 id="program">Programm</h2>
+    <section id="program-section" class="container"></section>
+
+    <h2 id="map">Kaart</h2>
+    <section id="map-section">
     </section>
 
     <h2 id="archive">Arhiiv</h2>
@@ -191,15 +206,6 @@
     <section id="contacts-section" class="container">
 
       <div class="contact" itemscope itemtype="https://schema.org/Person">
-        <img src="img/anna.png" width="200" height="200" loading="lazy" alt="Anna Aljanaki pilt" itemprop="image" />
-        <h3 itemprop="name">Anna Aljanaki</h3>
-        <p itemprop="sameAs"><a href="https://www.facebook.com/anna.aljanaki.14" title="Facebooki konto: Anna Aljanaki"
-            hreflang="en">Facebooki sõnum</a></p>
-        <p itemprop="email"><a href="mailto:aljanaki@gmail.com" title="Email: aljanaki@gmail.com">aljanaki@gmail.com</a>
-        </p>
-      </div>
-
-      <div class="contact" itemscope itemtype="https://schema.org/Person">
         <img src="img/irina.png" width="200" height="200" loading="lazy" alt="Irina Ivanova pilt" itemprop="image" />
         <h3 itemprop="name">Irina Ivanova</h3>
         <p itemprop="sameAs"><a href="https://www.facebook.com/iiiirina.ivanova/" title="Facebooki konto: Irina Ivanova"
@@ -221,12 +227,6 @@
 
     <h2 id="sponsor">Toetajad</h2>
     <section id="sponsor-section" class="container">
-
-      <div class="sponsor" itemscope itemtype="https://schema.org/OnlineBusiness">
-        <a href="https://tartu.ee" title="Tartu linn" hreflang="et" itemprop="url">
-          <img src="img/tartu.png" width="200" loading="lazy" alt="Tartu linn" itemprop="image" />
-        </a>
-      </div>
 
       <div class="sponsor" itemscope itemtype="https://schema.org/OnlineBusiness">
         <a href="https://vimo.ee" title="Vimo" hreflang="en" itemprop="url">
