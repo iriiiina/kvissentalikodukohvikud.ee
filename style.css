@@ -57,6 +57,7 @@ section {
 
 a {
     color: var(--color-green);
+    transition: color 0.2s;
 }
 
 a:hover {
@@ -95,6 +96,8 @@ nav {
     top: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     height: 55px;
     z-index: 1;
 }
@@ -170,6 +173,10 @@ nav {
     #menu-768 p {
         margin: 0.5em;
     }
+
+    #menu-768 a {
+        text-decoration: none;
+    }
 }
 
 /* HEADER */
@@ -212,7 +219,7 @@ header img {
     text-align: center;
     font-size: 1.2em;
     line-height: 1.5em;
-    padding: 0.5em 1em 0 1em;
+    padding: 0.5em 1em;
     border: 3px solid var(--color-orange);
     margin: 2em auto;
     max-width: 90%;
@@ -289,11 +296,18 @@ header img {
     padding: 1em;
     border: 1px solid var(--color-green);
     border-radius: 10px;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.cafe:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
 }
 
 .cafe-name {
     text-align: center;
     font-size: 1.3em;
+    font-weight: 700;
     padding: 0.5em;
 }
 
@@ -345,11 +359,18 @@ header img {
     padding: 0.5em;
     border: 1px solid var(--color-orange);
     border-radius: 10px;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.event:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
 }
 
 .event-name {
     text-align: center;
     font-size: 1.3em;
+    font-weight: 700;
     padding: 0.5em;
 }
 
@@ -417,6 +438,7 @@ header img {
 
 .contact img {
     width: 200px;
+    border-radius: 50%;
 }
 
 /* SPONSOR */
@@ -444,7 +466,7 @@ footer {
     width: 100%;
     color: white;
     text-align: center;
-    line-height: 0.5em;
+    line-height: 1.2em;
     padding: 2em 0;
 }
 
