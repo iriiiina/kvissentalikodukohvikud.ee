@@ -59,6 +59,22 @@ a:focus-visible {
     outline-offset: 2px;
 }
 
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #405d27;
+    color: white;
+    padding: 0.5em 1em;
+    z-index: 100;
+    transition: top 0.2s;
+}
+
+.skip-link:focus {
+    top: 0;
+    color: white;
+}
+
 .container {
     padding: 0 1em;
 }
