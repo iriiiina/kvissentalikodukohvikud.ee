@@ -24,7 +24,7 @@
   <meta property="og:title" content="Kvissentali päevad" />
   <meta property="og:site_name" content="Kvissentali päevad" />
   <meta property="og:description" content="Kvissentali päevade kirjeldus, programm, kaart ja muu oluline info" />
-  <meta property="og:image" content="favicon/preview.png" />
+  <meta property="og:image" content="https://kvissentalikodukohvikud.ee/favicon/preview.png" />
   <meta property="og:image:url" content="https://kvissentalikodukohvikud.ee/favicon/preview.png" />
   <meta property="og:image:secure_url" content="https://kvissentalikodukohvikud.ee/favicon/preview.png" />
   <meta property="og:image:type" content="image/png" />
@@ -100,13 +100,41 @@
   </nav>
 
   <header>
-    <img src="img/trees-color.png" width="1198" height="200" loading="lazy" alt="Joonistatud elupuud"
+    <img src="img/trees-color.png" width="1198" height="200" alt="Joonistatud elupuud"
       itemprop="primaryImageOfPage" />
     <h1>V Kvissentali päev<br/>
     30. mai 2026</h1>
   </header>
 
   <main>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "V Kvissentali päev",
+      "startDate": "2026-05-30",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Kvissentali",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Tartu",
+          "addressCountry": "EE"
+        }
+      },
+      "description": "Kvissentali päev — linnaosa ja kodukohvikute päev Kvissentali linnaosas, Tartus",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Kvissentali Elu",
+        "url": "https://kvissentalielu.ee/"
+      },
+      "image": "https://kvissentalikodukohvikud.ee/favicon/preview.png",
+      "url": "https://kvissentalikodukohvikud.ee"
+    }
+    </script>
 
     <section id="description" class="container" itemprop="description">
       <p><a href="https://kvissentalielu.ee/" title="Kvissentali Elu koduleht" hreflang="et" target="_blank">Kvissentali Elu</a> korraldab järjekorrast linnaosa ja kodukohvikute päeva.</p>
@@ -231,7 +259,7 @@
   </main>
 
   <footer>
-    <p>2025</p>
+    <p>2026</p>
     <p><a href="https://www.instagram.com/explore/tags/kvissentalipäevad" title="Instagrami tag #kvissentalipäevad"
         hreflang="et" target="_blank">#kvissentalipäevad</a></p>
     <p><a href="https://www.instagram.com/explore/tags/kvissentalikodukohvikud/"
