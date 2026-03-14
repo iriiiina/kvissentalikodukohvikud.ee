@@ -37,8 +37,8 @@ section {
 
 .section {
     margin: auto;
-    width: 700px;
-    max-width: 90%;
+    max-width: 700px;
+    width: 90%;
 }
 
 a {
@@ -228,7 +228,8 @@ header img {
 }
 
 .cafe {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     padding: 1em;
     border: 1px solid #405d27;
     border-radius: 10px;
@@ -283,7 +284,8 @@ header img {
 }
 
 .event {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     padding: 0.5em;
     border: 1px solid #e58e26;
     border-radius: 10px;
