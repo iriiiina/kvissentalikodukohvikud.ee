@@ -8,6 +8,11 @@
 
 html {
     height: 100%;
+    scroll-behavior: smooth;
+}
+
+h2[id] {
+    scroll-margin-top: 70px;
 }
 
 body {
@@ -49,6 +54,11 @@ a:hover {
     color: #e58e26;
 }
 
+a:focus-visible {
+    outline: 2px solid #e58e26;
+    outline-offset: 2px;
+}
+
 .container {
     padding: 0 1em;
 }
@@ -66,10 +76,24 @@ nav {
 
 #menu-button {
     position: fixed;
-    top: 1em;
-    right: 1em;
+    top: 0.5em;
+    right: 0.5em;
     width: 2.5em;
+    background: none;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+#menu-button svg {
+    width: 100%;
+    height: auto;
     fill: rgba(100, 100, 100, 1);
+}
+
+#menu-button:focus-visible {
+    outline: 2px solid #e58e26;
+    outline-offset: 2px;
 }
 
 #menu {
@@ -79,6 +103,12 @@ nav {
     padding: 6em 0.5em 0.5em 0.5em;
     background-color: rgba(0, 0, 0, 0.7);
     text-align: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
 }
 
 #menu-768 {
