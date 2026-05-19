@@ -1,0 +1,7 @@
+# Social media — block automated checkers
+facebook\.com
+fb\.me
+instagram\.com
+
+# Google Forms short URL — redirect chain confuses lychee
+forms\.gle

@@ -46,6 +46,10 @@ python -m http.server 8000
 
 Push to `main` branch → GitHub Pages serves automatically.
 
+## CI
+
+- **Link checker** — `.github/workflows/links.yml` runs [lychee](https://github.com/lycheeverse/lychee) on every push to `main`, every PR, and weekly (Mondays 06:00 UTC). Hosts that block bots are skipped via `.lycheeignore`.
+
 ## Design conventions
 
 **Colors:**
@@ -62,6 +66,8 @@ Push to `main` branch → GitHub Pages serves automatically.
 ## Git policy
 
 **Do not** pull, commit, or push. Read-only git commands (`git status`, `git diff`, `git log`, etc.) are fine for gathering info.
+
+**Work directly on `main`.** Do not create feature branches or worktrees — make all edits in the main repo's working tree.
 
 ## Code conventions
 
