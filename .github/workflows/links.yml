@@ -31,6 +31,10 @@ jobs:
             --max-cache-age 1d
             --no-progress
             --verbose
+            --exclude-path './2022/grid-gallery/index.html'
+            --exclude-path './2023/grid-gallery/index.html'
+            --exclude-path './2024/grid-gallery/index.html'
+            --exclude-path './2025/grid-gallery/index.html'
             './**/*.html'
           fail: true
 

@@ -5,3 +5,7 @@ instagram\.com
 
 # Google Forms short URL — redirect chain confuses lychee
 forms\.gle
+
+# Archive years reference manifest.json relatively, but only the root has one.
+# Harmless (PWA hint) — pre-existing inconsistency in archive HTML.
+/20[0-9]{2}/manifest\.json$
