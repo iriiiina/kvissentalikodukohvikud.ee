@@ -76,3 +76,7 @@ Push to `main` branch → GitHub Pages serves automatically.
 - **CSS:** No preprocessor. Flexbox layouts. Mobile-first. IDs and classes in kebab-case.
 - **JS:** Minimal — only menu toggle and gallery. Inline `onClick`/`onchange` handlers.
 - **Git commits:** Lowercase, present tense, no emoji (e.g., "add google form link", "remove program and map menu points")
+
+## Sitemap
+
+Whenever you make any content change to a file in this project, update the `<lastmod>` value of the **first `<url>` entry** (the current event at `/`) in `sitemap.xml` to today's date in `YYYY-MM-DD` format. Do not touch the `<lastmod>` values of archived year entries — they should stay frozen at the date of that year's event.
