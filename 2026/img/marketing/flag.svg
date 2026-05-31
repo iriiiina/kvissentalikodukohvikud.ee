@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500"
+   height="500"
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="flag-1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="1"
+     inkscape:cx="236"
+     inkscape:cy="257.5"
+     inkscape:window-width="1440"
+     inkscape:window-height="783"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="star"
+       style="fill:#fdcb6e;stroke:#ffffff;fill-opacity:1"
+       id="path1140"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="168"
+       sodipodi:cy="118"
+       sodipodi:r1="154.14928"
+       sodipodi:r2="77.074638"
+       sodipodi:arg1="0.78539816"
+       sodipodi:arg2="1.8325957"
+       inkscape:rounded="1"
+       inkscape:randomized="0"
+       d="M 277,227 C 88.206464,415.79354 88.206464,415.79354 19.103233,157.89677 -49.999999,-99.999997 -49.999999,-99.999997 207.89677,-30.896768 465.79353,38.206462 465.79353,38.206462 277,227 Z"
+       transform="matrix(0.25619811,-0.06608229,0.06608229,0.25619811,15.04001,34.330581)"
+       inkscape:transform-center-x="-0.26684385"
+       inkscape:transform-center-y="12.685762" />
+  </g>
+</svg>
